@@ -1,0 +1,51 @@
+/* components */
+@import url("./components/header.css");
+@import url("./components/footer.css");
+
+/* custom */
+@import url("./owl-carousel/owl-custom.css");
+
+/* pages */
+@import url("./pages/index.css");
+@import url("./pages/case-studies.css");
+
+/* universal */
+@import url("./buttons.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  /* font-family: 'Staatliches', cursive; */
+  /* font-family: "Lato", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.content {
+  width: 100%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.parallax-slider img {
+  /* -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px); */
+  /* filter: brightness(200%); */
+}
+
+.filter-white {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1.8rem 0;
+}

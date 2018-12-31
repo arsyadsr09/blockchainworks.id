@@ -1,0 +1,142 @@
+.content .intro {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content .intro .intro-content {
+  background: rgba(255, 255, 255, 0.493);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(19, 19, 19);
+  /* font-family: "Staatliches", cursive; */
+}
+
+.content .intro .intro-content .text-intro h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.content .intro .intro-content .text-intro .show-h1 {
+  margin: -14px 0;
+  /* margin-left: 100px; */
+  z-index: 3;
+  transition: opacity 1s ease-out;
+}
+
+.content .intro .intro-content .text-intro .text-marquee {
+  width: 30vw;
+  margin-left: -5vw;
+  margin-bottom: 2px;
+  /* color: rgb(10, 128, 207); */
+  color: rgb(226, 67, 7);
+  pointer-events: none;
+}
+
+.content .intro .intro-content .text-intro .text-marquee .slick-slide {
+  height: 10vh;
+}
+
+.content .what {
+  width: 100vw;
+  height: 150vh;
+}
+
+.content .what .what-content {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 100px 200px;
+  /* font-family: "Staatliches", cursive; */
+}
+
+.content .what .what-content .title-what {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .what .what-content .no-margin {
+  margin: 0;
+}
+
+.content .what .what-content .no-margin h1 {
+  font-weight: 900;
+  margin: -8px 0;
+  padding: 0;
+  font-size: 3rem;
+}
+
+.content .what .what-content .padding-p {
+  padding: 50px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.content .our-work {
+  background-image: url("../../images/background/our-work-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content .why {
+  width: 100vw;
+  height: 117vh;
+}
+
+.content .why#why {
+  position: relative;
+  background: transparent;
+}
+
+.ytplayer-container {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.content .why .why-content {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: rgba(226, 67, 7, 0.7);
+  padding: 3rem 0;
+}
+
+.content .why .why-content .title-why {
+  display: flex;
+  align-items: center;
+}
+
+.content .why .why-content .no-margin {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .why .why-content .no-margin h1 {
+  font-weight: 900;
+  margin: -8px 0;
+  padding: 0;
+  font-size: 3rem;
+}
+
+.content .why .why-content .padding-p {
+  padding: 50px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.content .our-engineer {
+  background-image: url("../../images/background/our-engineer-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
