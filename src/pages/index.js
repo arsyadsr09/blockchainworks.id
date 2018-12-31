@@ -3,6 +3,7 @@ import Header from "./components/header";
 import { Parallax } from "react-parallax";
 import Typed from "react-typed";
 import OwlCarousel from "react-owl-carousel2";
+import Particles from "react-particles-js";
 
 import ChevronLeft from "../assets/images/chevron-left.png";
 import ChevronRight from "../assets/images/chevron-right.png";
@@ -65,28 +66,36 @@ class Index extends React.Component {
         <Header />
         <main className="content">
           <section className="intro">
-            <Parallax
-              bgImage={require("../assets/images/menu-img/work.jpg")}
-              strength={300}
-            >
-              <div className="intro-content">
-                <div className="text-intro">
-                  <h1 className="show-h1">A DIGITAL AGENCY</h1>
-                  <h1 className="show-h1">THAT BUILDS</h1>
-                  <h1 className="show-h1">
-                    <Typed
-                      className="text-marquee"
-                      strings={["WEB APPS", "GAME APPS", "IOS APPS"]}
-                      typeSpeed={100}
-                      backSpeed={50}
-                      loop
-                    />
-                  </h1>
-                  <h1 className="show-h1">INNOVATIVELY</h1>
-                  <h1 className="show-h1">USEFUL</h1>
-                </div>
+            <Particles
+              params={{
+                particles: {
+                  number: {
+                    value: 150
+                  },
+                  size: {
+                    value: 1
+                  }
+                }
+              }}
+            />
+            <div className="intro-content">
+              <div className="text-intro">
+                <h1 className="show-h1">A DIGITAL AGENCY</h1>
+                <h1 className="show-h1">THAT BUILDS</h1>
+                <h1 className="show-h1">
+                  <Typed
+                    className="text-marquee"
+                    strings={["WEB APPS", "GAME APPS", "IOS APPS"]}
+                    typeSpeed={100}
+                    backSpeed={50}
+                    loop
+                  />
+                </h1>
+                <h1 className="show-h1">INNOVATIVELY</h1>
+                <h1 className="show-h1">USEFUL</h1>
               </div>
-            </Parallax>
+            </div>
+            {/* </Parallax> */}
           </section>
           <section className="what">
             <Parallax

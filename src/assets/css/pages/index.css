@@ -1,16 +1,19 @@
 .content .intro {
   width: 100vw;
   height: 100vh;
+  background-color: #282828;
 }
 
 .content .intro .intro-content {
-  background: rgba(255, 255, 255, 0.493);
+  /* background: rgba(255, 255, 255, 0.493); */
+  position: absolute;
+  top: 0;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(19, 19, 19);
+  color: #fff;
   /* font-family: "Staatliches", cursive; */
 }
 

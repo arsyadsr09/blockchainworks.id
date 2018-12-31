@@ -9138,6 +9138,11 @@ react-parallax@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-parallax/-/react-parallax-2.0.1.tgz#22448e166eeb3206ee1a2bd90027d65b56a2a085"
   integrity sha512-apzMLQzr2HhOn4TmekFoQjlDyK/MzBv6Vk2CpykUMC0u0lFKIzkuB8jMaDX5Pr088cWoD1SU7OIVDsMG1GhSDw==
 
+react-particles-js@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.4.2.tgz#34a4d1ea15eaebcbb068f7b6a7c43b18792fcf65"
+  integrity sha512-/rfpLRYUA4JFEBBM8cN3X+kEr9P7J2lXktJi81ugcK6B9H69xNlDFKXOUYe+YizW8E5NapxNgubAcKYt0Co7TQ==
+
 react-router-dom@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.3.1.tgz#4c2619fc24c4fa87c9fd18f4fb4a43fe63fbd5c6"

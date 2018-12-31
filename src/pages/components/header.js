@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/logo-single.png";
+import logo from "../../assets/images/logo-white.png";
 import $ from "jquery";
 
 class Header extends React.Component {
