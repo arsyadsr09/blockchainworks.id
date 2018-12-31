@@ -11,6 +11,7 @@
 
 /* universal */
 @import url("./buttons.css");
+@import url("./responsive.css")
 
 html {
   scroll-behavior: smooth;
@@ -49,3 +50,4 @@ body {
   background: rgba(255, 255, 255, 0.7);
   padding: 1.8rem 0;
 }
+
