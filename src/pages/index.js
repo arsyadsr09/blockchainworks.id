@@ -7,6 +7,7 @@ import What from "./components/index/what";
 import OurWork from "./components/index/our-work";
 import Why from "./components/index/why";
 import OurTeam from "./components/index/our-team";
+import Location from "./components/index/location";
 
 class Index extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class Index extends React.Component {
           <OurWork />
           <Why />
           <OurTeam />
+          <Location />
         </main>
       </div>
     );

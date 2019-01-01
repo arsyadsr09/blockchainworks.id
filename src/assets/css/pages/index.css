@@ -48,8 +48,8 @@
 }
 
 .content .what .what-content {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 150vh;
   color: #fff;
   padding: 100px 200px;
   /* font-family: "Staatliches", cursive; */
@@ -99,8 +99,8 @@
 }
 
 .content .why .why-content {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 117vh;
   color: #fff;
   background: rgba(226, 67, 7, 0.7);
   padding: 3rem 0;
@@ -138,4 +138,115 @@
   background-image: url("../../images/background/our-engineer-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.content .location {
+  width: 100vw;
+  height: 120vh;
+}
+
+.content .location-content {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100vw;
+  height: 120vh;
+  color: #282828;
+  padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .location-content .flex-fix {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.content .location-content .flex-fix .square {
+  height: 180px;
+  width: 180px;
+  background: linear-gradient(45deg, #e83f25, #e03e20 50%, #ae301b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .location-content .flex-fix .square h2 {
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: -12px;
+}
+
+.content .location-content .item-loc {
+  display: flex;
+  cursor: pointer;
+  margin: -10px 0;
+}
+
+.content .location-content .item-loc .mask {
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.content .location-content .item-loc .layer {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  transition: opacity 0.5s ease;
+}
+
+.content .location-content .item-loc .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .location-content .item-loc .left .expand-plus {
+  width: 25px;
+  height: 25px;
+}
+
+.content .location-content .item-loc .left i {
+  font-size: 2rem;
+}
+
+.content .location-content .item-loc .right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 3vw;
+}
+
+.content .location-content .item-loc .right h1 {
+  color: rgb(226, 67, 7);
+  font-weight: 900;
+  font-size: 5.7rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.content .location-content .item-loc .right .address {
+  color: #282828;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 15vw;
+  margin: 0;
+}
+
+.content .location-content .item-loc:hover {
+  filter: brightness(90%);
+}
+
+.content .location-content .item-loc.selected .mask {
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.content .location-content .item-loc.selected .layer {
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
