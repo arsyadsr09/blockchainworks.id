@@ -91,14 +91,10 @@
   height: 117vh;
 }
 
-.content .why#why {
-  position: relative;
-  background: transparent;
-}
-
-.ytplayer-container {
+.content .yt-background {
+  width: 100vw;
+  height: 117vh;
   position: absolute;
-  top: 0;
   z-index: -1;
 }
 
@@ -138,8 +134,8 @@
   align-items: center;
 }
 
-.content .our-engineer {
+.content .our-team {
   background-image: url("../../images/background/our-engineer-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
