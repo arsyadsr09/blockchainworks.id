@@ -10,7 +10,9 @@ const YouTubeOption = {
     branding: 0,
     rel: 0,
     autohide: 0,
-    start: 100
+    start: 0,
+    mute: 1,
+    loop: 1
   }
 };
 
