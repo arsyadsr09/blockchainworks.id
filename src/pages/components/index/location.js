@@ -89,7 +89,7 @@ class Location extends React.Component {
   render() {
     const { nickLoc, background, location } = this.state;
     return (
-      <section className="location">
+      <section className="location" id="location">
         <Parallax bgImage={background} strength={350}>
           <div className="location-content">
             <div className="container">

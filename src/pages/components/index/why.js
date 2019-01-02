@@ -4,7 +4,7 @@ import YouTube from "react-youtube";
 const YouTubeOption = {
   playerVars: {
     modestbranding: 0,
-    autoplay: 1,
+    autoplay: 0,
     controls: 0,
     showinfo: 0,
     branding: 0,
@@ -19,7 +19,7 @@ const YouTubeOption = {
 class Why extends React.Component {
   render() {
     return (
-      <section className="why">
+      <section className="why" id="why">
         <YouTube
           className="yt-background"
           videoId="QJbpJQscn9E"

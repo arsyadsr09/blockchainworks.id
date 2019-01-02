@@ -60,7 +60,7 @@ class OurWork extends React.Component {
     const { ourWork } = this.state;
 
     return (
-      <section className="our-work">
+      <section className="our-work" id="our-work">
         <div className="filter-white">
           <OwlCarousel ref="our-work" options={OwlOption}>
             {ourWork.map((item, i) => {

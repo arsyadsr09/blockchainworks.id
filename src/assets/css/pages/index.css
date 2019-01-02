@@ -84,6 +84,7 @@
   background-image: url("../../images/background/our-work-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .content .why {
@@ -137,7 +138,8 @@
 .content .our-team {
   background-image: url("../../images/background/our-engineer-background.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  height: 100vh;
 }
 
 .content .location {
@@ -245,8 +247,194 @@
   opacity: 0;
   transition: opacity 0.5s ease;
 }
+
 .content .location-content .item-loc.selected .layer {
   z-index: 1;
   opacity: 1;
   transition: opacity 0.5s ease;
+}
+
+.content .contact-us {
+  height: 100vh;
+}
+
+.content .contact-us h2 {
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: -12px;
+}
+
+.content .contact-us h3 {
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+.content .contact-us .overlay-orange {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(rgba(202, 58, 5, 0.75), rgba(151, 43, 4, 0.75));
+}
+
+.content .contact-us .overlay-maroon {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(rgba(117, 35, 5, 0.95), rgba(44, 13, 1, 0.95));
+}
+
+.content .contact-us .flex-fix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .contact-us .flex-fix .square {
+  height: 12rem;
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  transition: box-shadow 0.25s, transform 0.25s ease;
+  cursor: pointer;
+}
+
+.content .contact-us .flex-fix .square.yellow {
+  background: linear-gradient(45deg, #e8e525, #f1e423 50%, #aea41b);
+}
+
+.content .contact-us .flex-fix .square.sia {
+  background: linear-gradient(45deg, #6bb78e, #63db9b 50%, #408b63);
+}
+
+.content .contact-us .flex-fix .square:hover {
+  transform: scale(1.05);
+  box-shadow: 1.2rem 1.5rem 5rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.content .contact-us .contact {
+  position: absolute;
+  left: -50%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/background/contact-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  transition: left 0.5s ease;
+}
+
+.content .contact-us .contact.selected {
+  left: 0;
+}
+
+.content .contact-us .contact.close {
+  left: -100%;
+}
+
+.content .contact-us .contact .btn-close {
+  position: absolute;
+  font-size: 2rem;
+  top: 3vh;
+  right: 3vw;
+  cursor: pointer;
+}
+
+.content .contact-us .contact .top,
+.content .contact-us .contact .bottom {
+  margin: 7vh 0;
+}
+
+.content .contact-us .contact .bottom form .dropdown .dropdown-menu {
+  border-radius: 0;
+}
+
+.content .contact-us .contact .bottom form .btn-submit {
+  border-radius: 0;
+  padding: 0.6rem 1rem;
+}
+
+.contact .contact-us .bottom form input[type="email"],
+form .dropdown .btn,
+form input[type="text"],
+form textarea {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-size: inherit;
+  border-radius: 0;
+  background: hsla(0, 0%, 100%, 0.3);
+  color: #fff;
+  outline: none;
+  border: 1px solid transparent;
+  transition: border 0.25s ease;
+  padding: 0.5rem 1rem;
+}
+
+.contact .contact-us .bottom form input[type="email"]::placeholder,
+form input[type="text"]::placeholder,
+form textarea::placeholder {
+  color: rgb(195, 195, 195);
+}
+
+.contact .contact-us .bottom form input[type="email"]:focus,
+form input[type="text"]:focus,
+form textarea:focus {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-size: inherit;
+  border-radius: 0;
+  color: #fff;
+  background: hsla(0, 0%, 100%, 0.3);
+  outline: none;
+  border: 1px solid transparent;
+  transition: border 0.25s ease;
+  padding: 0.5rem 1rem;
+}
+
+.content .contact-us .join {
+  position: absolute;
+  right: -50%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/background/join-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  transition: right 0.5s ease;
+}
+
+.content .contact-us .join.selected {
+  right: 0;
+}
+
+.content .contact-us .join.close {
+  right: -101%;
+}
+
+.content .contact-us .join .btn-close {
+  position: absolute;
+  font-size: 2rem;
+  top: 3vh;
+  left: 3vw;
+  cursor: pointer;
+}
+
+.content .contact-us .join .top,
+.content .contact-us .join .bottom {
+  margin: 7vh 0;
+  padding: 0 5vw;
+}
+
+.content .contact-us .join .bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content .contact-us .join .bottom .btn-more {
+  border-radius: 0;
+  padding: 0.4rem 1rem;
 }

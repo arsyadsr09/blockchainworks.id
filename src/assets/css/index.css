@@ -7,7 +7,7 @@
 
 /* pages */
 @import url("./pages/index.css");
-@import url("./pages/case-studies.css");
+/* @import url("./pages/case-studies.css"); */
 
 /* universal */
 @import url("./buttons.css");
@@ -37,16 +37,16 @@ body {
   margin-left: 0;
 }
 
-.parallax-slider img {
-  /* -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px); */
-  /* filter: brightness(200%); */
+.filter-white {
+  background: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  padding: 8vh 0;
 }
 
-.filter-white {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 1.8rem 0;
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  margin: 0;
 }

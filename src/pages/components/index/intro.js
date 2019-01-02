@@ -20,7 +20,7 @@ class Intro extends React.Component {
           width="100vw"
           height="100vh"
         />
-        <div className="intro-content">
+        <div className="intro-content" id="intro">
           <div className="text-intro">
             <h1 className="show-h1">A DIGITAL AGENCY</h1>
             <h1 className="show-h1">THAT BUILDS</h1>

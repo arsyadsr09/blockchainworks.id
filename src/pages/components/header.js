@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../../assets/images/logo-white.png";
 import $ from "jquery";
+import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Header extends React.Component {
   componentDidMount() {
@@ -29,15 +31,39 @@ class Header extends React.Component {
           .css("z-index", 9);
       }
     });
+    $(".banner").click(function() {
+      menuSheet = !menuSheet;
+      if (menuSheet === true) {
+        $(".menu-sheet")
+          .css("opacity", 1)
+          .css("z-index", 9);
+        $("#ham-menu")
+          .removeClass("spinning")
+          .addClass("spinning-result");
+        $("#logo-header")
+          .css("opacity", 0)
+          .css("z-index", -1);
+      } else {
+        $(".menu-sheet")
+          .css("opacity", 0)
+          .css("z-index", -1);
+        $("#ham-menu")
+          .removeClass("spinning-result")
+          .addClass("spinning");
+        $("#logo-header")
+          .css("opacity", 1)
+          .css("z-index", 9);
+      }
+    });
   }
   render() {
     return (
       <header>
         <div className="header">
-          <a href="/" className="logo" id="logo-header">
-            <img src={logo} width="100%" alt="Logo Indonesia Creative" />
+          <a href="/" className="logo absolute" id="logo-header">
+            <img src={logo} alt="Logo Indonesia Creative" />
           </a>
-          <a id="ham-menu" className="ham-menu spinning">
+          <a id="ham-menu" className="ham-menu spinning absolute">
             <span className="text-menu">MENU</span>
             <i className="icon-menu fa fa-bars first-icon" />
             <i className="icon-menu fa fa-times second-icon" />
@@ -46,14 +72,14 @@ class Header extends React.Component {
         <div className="menu-sheet">
           <div className="row">
             <div className="col-6 menu-items work">
-              <div className="banner">
+              <AnchorLink href="#our-work" className="banner">
                 <h1>WORK</h1>
-              </div>
+              </AnchorLink>
             </div>
             <div className="col-3 menu-items people">
-              <div className="banner">
+              <AnchorLink href="#our-team" className="banner">
                 <h1>PEOPLE</h1>
-              </div>
+              </AnchorLink>
             </div>
             <div className="col-3 menu-items news">
               <div className="banner">
@@ -62,25 +88,25 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-3 menu-items clients">
-              <div className="banner">
-                <h1>CLIENTS</h1>
-              </div>
+            <div className="col-3 menu-items what">
+              <AnchorLink href="#what" className="banner">
+                <h1>WHAT?</h1>
+              </AnchorLink>
             </div>
             <div className="col-3 menu-items locations">
-              <div className="banner">
+              <AnchorLink href="#location" className="banner">
                 <h1>LOCATIONS</h1>
-              </div>
+              </AnchorLink>
             </div>
             <div className="col-3 menu-items contacts">
-              <div className="banner">
+              <AnchorLink href="#our-work" className="banner">
                 <h1>CONTACTS</h1>
-              </div>
+              </AnchorLink>
             </div>
             <div className="col-3 menu-items jobs">
-              <div className="banner">
+              <AnchorLink href="#our-work" className="banner">
                 <h1>JOBS</h1>
-              </div>
+              </AnchorLink>
             </div>
           </div>
         </div>

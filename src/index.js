@@ -4,6 +4,10 @@ import "react-owl-carousel2/src/owl.carousel.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./assets/css/index.css";
 
+//import js
+import "popper.js";
+import "bootstrap/dist/js/bootstrap.min.js";
+
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";

@@ -173,7 +173,7 @@ class OurTeam extends React.Component {
     const { selected, ourTeam } = this.state;
 
     return (
-      <section className="our-team">
+      <section className="our-team" id="our-team">
         <div className="filter-white">
           <OwlCarousel ref="our-team" options={OwlOption}>
             {ourTeam.map((item, i) => {

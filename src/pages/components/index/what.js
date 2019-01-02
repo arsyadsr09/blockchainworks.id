@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 class What extends React.Component {
   render() {
     return (
-      <section className="what">
+      <section className="what" id="what">
         <Parallax
           bgImage={require("../../../assets/images/background/our-team-background.jpg")}
           strength={350}
