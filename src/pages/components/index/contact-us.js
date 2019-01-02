@@ -5,13 +5,16 @@ class ContactUs extends React.Component {
     super(props);
     this.onContactClick = this.onContactClick.bind(this);
     this.onJoinClick = this.onJoinClick.bind(this);
+    this.onSubjectSelected = this.onSubjectSelected.bind(this);
     this.state = {
       joinStatus: false,
-      contactStatus: false
+      contactStatus: false,
+      subjectText: ""
     };
   }
 
-  onContactClick = () => {
+  onContactClick = e => {
+    e.preventDefault();
     const currentState = this.state.contactStatus;
     this.setState({
       contactStatus: !currentState,
@@ -19,7 +22,8 @@ class ContactUs extends React.Component {
     });
   };
 
-  onJoinClick = () => {
+  onJoinClick = e => {
+    e.preventDefault();
     const currentState = this.state.joinStatus;
     this.setState({
       joinStatus: !currentState,
@@ -27,8 +31,15 @@ class ContactUs extends React.Component {
     });
   };
 
+  onSubjectSelected = (text, e) => {
+    e.preventDefault();
+    this.setState({
+      subjectText: text
+    });
+  };
+
   render() {
-    const { joinStatus, contactStatus } = this.state;
+    const { joinStatus, contactStatus, subjectText } = this.state;
 
     return (
       <section className="contact-us">
@@ -77,18 +88,47 @@ class ContactUs extends React.Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Choose Subject
+                        {subjectText ? subjectText : "Choose Subject"}
                         <i className="fa fa-sort-down pull-right" />
                       </button>
                       <div
                         className="dropdown-menu w-100"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a className="dropdown-item">General Inquiry</a>
-                        <a className="dropdown-item">Suggestion</a>
-                        <a className="dropdown-item">Booking</a>
-                        <a className="dropdown-item">Technical Support</a>
-                        <a className="dropdown-item">Other</a>
+                        <a
+                          className="dropdown-item"
+                          onClick={e =>
+                            this.onSubjectSelected("General Inquiry", e)
+                          }
+                        >
+                          General Inquiry
+                        </a>
+                        <a
+                          className="dropdown-item"
+                          onClick={e => this.onSubjectSelected("Suggestion", e)}
+                        >
+                          Suggestion
+                        </a>
+                        <a
+                          className="dropdown-item"
+                          onClick={e => this.onSubjectSelected("Booking", e)}
+                        >
+                          Booking
+                        </a>
+                        <a
+                          className="dropdown-item"
+                          onClick={e =>
+                            this.onSubjectSelected("Technical Support", e)
+                          }
+                        >
+                          Technical Support
+                        </a>
+                        <a
+                          className="dropdown-item"
+                          onClick={e => this.onSubjectSelected("Other", e)}
+                        >
+                          Other
+                        </a>
                       </div>
                     </div>
                     <textarea
