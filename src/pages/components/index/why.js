@@ -4,7 +4,7 @@ import YouTube from "react-youtube";
 const YouTubeOption = {
   playerVars: {
     modestbranding: 0,
-    autoplay: 0,
+    autoplay: 1,
     controls: 0,
     showinfo: 0,
     branding: 0,

@@ -395,27 +395,27 @@ form textarea:focus {
   padding: 0.5rem 1rem;
 }
 
-.content .contact-us .join {
+.content .contact-us .jobs {
   position: absolute;
   right: -50%;
   width: 100vw;
   height: 100vh;
-  background-image: url("../../images/background/join-background.jpg");
+  background-image: url("../../images/background/jobs-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   transition: right 0.5s ease;
 }
 
-.content .contact-us .join.selected {
+.content .contact-us .jobs.selected {
   right: 0;
 }
 
-.content .contact-us .join.close {
+.content .contact-us .jobs.close {
   right: -101%;
 }
 
-.content .contact-us .join .btn-close {
+.content .contact-us .jobs .btn-close {
   position: absolute;
   font-size: 2rem;
   top: 3vh;
@@ -423,18 +423,18 @@ form textarea:focus {
   cursor: pointer;
 }
 
-.content .contact-us .join .top,
-.content .contact-us .join .bottom {
+.content .contact-us .jobs .top,
+.content .contact-us .jobs .bottom {
   margin: 7vh 0;
   padding: 0 5vw;
 }
 
-.content .contact-us .join .bottom a {
+.content .contact-us .jobs .bottom a {
   color: #fff;
   text-decoration: none;
 }
 
-.content .contact-us .join .bottom .btn-more {
+.content .contact-us .jobs .bottom .btn-more {
   border-radius: 0;
   padding: 0.4rem 1rem;
 }

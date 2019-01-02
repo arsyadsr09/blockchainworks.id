@@ -36,6 +36,7 @@ class ContactUs extends React.Component {
           className={`contact ${contactStatus ? "selected" : ""} ${
             joinStatus ? "close" : ""
           }`}
+          id="contact"
         >
           <div className="row h-100">
             <div className="col-6 flex-fix overlay-maroon">
@@ -122,9 +123,10 @@ class ContactUs extends React.Component {
           </div>
         </div>
         <div
-          className={`join ${joinStatus ? "selected" : ""} ${
+          className={`jobs ${joinStatus ? "selected" : ""} ${
             contactStatus ? "close" : ""
           }`}
+          id="jobs"
         >
           <div className="row h-100">
             <div className="col-6 flex-fix overlay-orange">
