@@ -1,0 +1,116 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  z-index: 10;
+
+  .absolute {
+    position: absolute;
+  }
+
+  .logo {
+    top: 3vh;
+    left: 1.5vw;
+    width: 12vw;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+
+    img {
+      width: 10vw;
+    }
+  }
+  .ham-menu {
+    top: 3vh;
+    right: 0;
+    width: 4vw;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+    .text-menu {
+      font-size: 0.7rem;
+      margin-right: 10px;
+      color: #fff;
+      margin-left: -50px;
+    }
+    .icon-menu {
+      font-size: 1.7rem;
+      color: rgba(30, 144, 255, 1);
+    }
+  }
+}
+
+.menu-sheet {
+  position: fixed;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  color: white;
+  /* font-family: "Staatliches", cursive; */
+  font-family: "Roboto", sans-serif;
+  transition-duration: 0.5s;
+  transition-timing-function: 0.5s;
+  .row {
+    height: 50vh;
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      &.work {
+        background-image: url("/images/menu-img/work.jpg");
+      }
+      &.people {
+        background-image: url("/images/menu-img/people.jpg");
+      }
+      &.news {
+        background-image: url("/images/menu-img/news.jpg");
+      }
+      &.what {
+        background-image: url("/images/menu-img/what.jpg");
+      }
+      &.locations {
+        background-image: url("/images/menu-img/locations.jpg");
+      }
+      &.contacts {
+        background-image: url("/images/menu-img/contacts.jpg");
+      }
+      &.jobs {
+        background-image: url("/images/menu-img/jobs.jpg");
+      }
+
+      .banner {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        width: 100%;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #fff;
+
+        h1 {
+          font-size: 2rem;
+          font-weight: 900;
+          letter-spacing: 2px;
+        }
+
+        &:hover {
+          background: rgba(0, 0, 0, 0);
+        }
+      }
+    }
+  }
+}

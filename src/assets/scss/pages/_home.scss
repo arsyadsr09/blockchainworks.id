@@ -1,0 +1,354 @@
+.content {
+  .intro {
+    width: 100vw;
+    height: 100vh;
+    background-color: #282828;
+    .intro-content {
+      /* background: rgba(255, 255, 255, 0.493); */
+      position: absolute;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      /* font-family: "Staatliches", cursive; */
+      .text-intro {
+        h1 {
+          font-size: 3.5rem;
+          font-weight: 700;
+        }
+        .show-h1 {
+          margin: -14px 0;
+          /* margin-left: 100px; */
+          z-index: 3;
+          transition: opacity 1s ease-out;
+        }
+        .text-marquee {
+          margin-left: -7vw;
+          margin-bottom: 2px;
+          /* color: rgb(10, 128, 207); */
+          color: rgb(30, 144, 255);
+          pointer-events: none;
+          .slick-slide {
+            height: 10vh;
+          }
+        }
+      }
+    }
+  }
+  .what {
+    width: 100vw;
+    height: 130vh;
+    .what-content {
+      width: 100vw;
+      height: 130vh;
+      color: #fff;
+      background: rgba(30, 144, 255, 0.7);
+      // background: rgba(226, 67, 7, 0.7);
+      padding: 100px 200px;
+      /* font-family: "Staatliches", cursive; */
+      .title-what {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .no-margin {
+        margin: 0;
+        h1 {
+          font-weight: 900;
+          margin: -8px 0;
+          padding: 0;
+          font-size: 3rem;
+        }
+      }
+      .padding-p {
+        padding: 50px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: 1rem;
+      }
+    }
+  }
+  .our-work {
+    background-image: url("/images/background/our-work-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .why {
+    width: 100vw;
+    height: 117vh;
+    .yt-background {
+      width: 100vw;
+      height: 117vh;
+      position: absolute;
+      z-index: -1;
+    }
+    .why-content {
+      width: 100vw;
+      height: 117vh;
+      color: #fff;
+      background: rgba(30, 144, 255, 0.8);
+      padding: 3rem 0;
+      .title-why {
+        display: flex;
+        align-items: center;
+      }
+      .no-margin {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          font-weight: 900;
+          margin: -8px 0;
+          padding: 0;
+          font-size: 3rem;
+        }
+      }
+      .padding-p {
+        padding: 50px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .our-team {
+    background-image: url("/images/background/our-engineer-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .location {
+    width: 100vw;
+    height: 120vh;
+    .location-content {
+      background: rgba(255, 255, 255, 0.8);
+      width: 100vw;
+      height: 120vh;
+      color: #282828;
+      padding: 100px 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .flex-fix {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 50px;
+        .square {
+          height: 180px;
+          width: 180px;
+          background: linear-gradient(45deg, #2579e8, #208ae0 50%, #1b67ae);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          h2 {
+            color: #fff;
+            font-weight: 900;
+            margin-bottom: -12px;
+          }
+        }
+      }
+      .item-loc {
+        /* display: flex; */
+        /* cursor: pointer; */
+        margin: -10px 0;
+        h1 {
+          color: rgb(30, 144, 255);
+          font-weight: 900;
+          font-size: 4rem;
+          margin: 0;
+          line-height: 1;
+        }
+      }
+      .address {
+        color: #282828;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+  }
+  .contact-us {
+    height: 100vh;
+    h2 {
+      color: #fff;
+      font-weight: 900;
+      margin-bottom: -12px;
+    }
+    h3 {
+      color: #fff;
+      font-weight: 900;
+      margin-bottom: -10px;
+    }
+
+    .overlay-orange {
+      height: 100%;
+      width: 100%;
+      background: radial-gradient(
+        rgba(5, 156, 202, 0.75),
+        rgba(4, 92, 151, 0.75)
+      );
+    }
+    .overlay-maroon {
+      height: 100%;
+      width: 100%;
+      background: radial-gradient(
+        rgba(5, 76, 117, 0.95),
+        rgba(1, 25, 44, 0.95)
+      );
+    }
+    .flex-fix {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .square {
+        height: 12rem;
+        width: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: none;
+        transition: box-shadow 0.25s, transform 0.25s ease;
+        cursor: pointer;
+        &.yellow {
+          background: linear-gradient(45deg, #e8e525, #f1e423 50%, #aea41b);
+        }
+        &.sia {
+          background: linear-gradient(45deg, #6bb78e, #63db9b 50%, #408b63);
+        }
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 1.2rem 1.5rem 5rem 0 rgba(0, 0, 0, 0.25);
+        }
+      }
+    }
+    .contact {
+      position: absolute;
+      left: -50%;
+      width: 100vw;
+      height: 100vh;
+      background-image: url("/images/background/contact-background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      transition: left 0.5s ease;
+      &.selected {
+        left: 0;
+      }
+      &.close {
+        left: -100%;
+      }
+      .btn-close {
+        position: absolute;
+        font-size: 2rem;
+        top: 3vh;
+        right: 3vw;
+        cursor: pointer;
+      }
+      .top {
+        margin: 7vh 0;
+      }
+      .bottom {
+        margin: 7vh 0;
+        form {
+          .dropdown {
+            .dropdown-menu {
+              border-radius: 0;
+            }
+          }
+          .btn-submit {
+            border-radius: 0;
+            padding: 0.6rem 1rem;
+          }
+          input[type="email"],
+          .dropdown .btn,
+          input[type="text"],
+          textarea {
+            display: block;
+            width: 100%;
+            font-family: inherit;
+            font-size: 1.5rem;
+            font-size: inherit;
+            border-radius: 0;
+            background: hsla(0, 0%, 100%, 0.3);
+            color: #fff;
+            outline: none;
+            border: 1px solid transparent;
+            transition: border 0.25s ease;
+            padding: 0.5rem 1rem;
+          }
+          input[type="email"]::placeholder,
+          input[type="text"]::placeholder,
+          textarea::placeholder {
+            color: rgb(195, 195, 195);
+          }
+          input[type="email"]:focus,
+          input[type="text"]:focus,
+          textarea:focus {
+            display: block;
+            width: 100%;
+            font-family: inherit;
+            font-size: 1.5rem;
+            font-size: inherit;
+            border-radius: 0;
+            color: #fff;
+            background: hsla(0, 0%, 100%, 0.3);
+            outline: none;
+            border: 1px solid transparent;
+            transition: border 0.25s ease;
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+    }
+    .jobs {
+      position: absolute;
+      right: -50%;
+      width: 100vw;
+      height: 100vh;
+      background-image: url("/images/background/jobs-background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      transition: right 0.5s ease;
+      &.selected {
+        right: 0;
+      }
+      &.close {
+        right: -101%;
+      }
+      .btn-close {
+        position: absolute;
+        font-size: 2rem;
+        top: 3vh;
+        left: 3vw;
+        cursor: pointer;
+      }
+      .top {
+        margin: 7vh 0;
+        padding: 0 5vw;
+      }
+      .bottom {
+        margin: 7vh 0;
+        padding: 0 5vw;
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+        .btn-more {
+          border-radius: 0;
+          padding: 0.4rem 1rem;
+        }
+      }
+    }
+  }
+}

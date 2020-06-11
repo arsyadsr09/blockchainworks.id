@@ -1,14 +1,14 @@
 import React from "react";
 
-import Header from "./components/header";
+import Header from "./components/header.jsx";
 // section page
-import Intro from "./components/index/intro";
-import What from "./components/index/what";
-import OurWork from "./components/index/our-work";
-import Why from "./components/index/why";
-import OurTeam from "./components/index/our-team";
-import Location from "./components/index/location";
-import ContactUs from "./components/index/contact-us";
+import Intro from "./components/home/intro.jsx";
+import What from "./components/home/what.jsx";
+import OurWork from "./components/home/our-client.jsx";
+import Why from "./components/home/why.jsx";
+import OurClient from "./components/home/our-work.jsx";
+import Location from "./components/home/location.jsx";
+import ContactUs from "./components/home/contact-us.jsx";
 
 class Index extends React.Component {
   render() {
@@ -18,9 +18,9 @@ class Index extends React.Component {
         <main className="content">
           <Intro />
           <What />
-          <OurWork />
+          <OurClient />
           <Why />
-          <OurTeam />
+          <OurWork />
           <Location />
           <ContactUs />
         </main>

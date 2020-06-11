@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "font-awesome/css/font-awesome.min.css";
-import "./assets/css/index.css";
+import "./assets/scss/index.scss";
 
 //import js
 import "popper.js";
