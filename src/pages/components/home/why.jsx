@@ -2,20 +2,20 @@ import React from "react";
 import { Parallax } from "react-parallax";
 // import YouTube from "react-youtube";
 
-const YouTubeOption = {
-  playerVars: {
-    modestbranding: 0,
-    autoplay: 0,
-    controls: 0,
-    showinfo: 0,
-    branding: 0,
-    rel: 0,
-    autohide: 0,
-    start: 0,
-    mute: 1,
-    loop: 1,
-  },
-};
+// const YouTubeOption = {
+//   playerVars: {
+//     modestbranding: 0,
+//     autoplay: 0,
+//     controls: 0,
+//     showinfo: 0,
+//     branding: 0,
+//     rel: 0,
+//     autohide: 0,
+//     start: 0,
+//     mute: 1,
+//     loop: 1,
+//   },
+// };
 
 class Why extends React.Component {
   render() {
@@ -40,7 +40,6 @@ class Why extends React.Component {
                     <div>
                       <h1>WHY MUST</h1>
                       <h1>BLOCKCHAIN</h1>
-                      <h1>WORKS</h1>
                     </div>
                   </div>
                 </div>

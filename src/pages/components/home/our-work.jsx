@@ -21,115 +21,46 @@ class OurWork extends React.Component {
     this.state = {
       ourWork: [
         {
-          name: { first: "Arsyad", last: "Ramadhan" },
-          nickname: "arsyad",
-          position: "Chief Technology Officer",
-          github: "https://github.com/arsyadsr09",
-          email: "blacklistdark1987@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
+          name: "DJP Private Ethereum Network",
+          company: "Direktorat Jenderal Pajak",
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "/images/our-work/arsyad-1.jpg"}`,
+          imageBack: `${process.env.PUBLIC_URL +
+            "/images/our-work/arsyad-2.jpg"}`,
         },
         {
           name: "title",
         },
         {
-          name: { first: "Furqan", last: "Maudhudy" },
-          nickname: "fvrqan",
-          position: "Chief Financial Officer",
-          github: "https://github.com/fvrqan",
-          email: "furqanmaudhudy@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
+          name: "Kk",
+          subName: "Chief Technology Officer",
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "/images/our-work/arsyad-1.jpg"}`,
+          imageBack: `${process.env.PUBLIC_URL +
+            "/images/our-work/arsyad-2.jpg"}`,
         },
         {
-          name: { first: "Rina", last: "Hafizhah" },
-          nickname: "rina",
-          position: "Chief Product Officer",
-          github: "https://github.com/rinahafizhah",
-          email: "rinahafizhah@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Azerino", last: "Yogananta" },
-          nickname: "Gatot",
-          position: "President",
-          github: "https://github.com/ayogatot",
-          email: "azerino25@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Christian", last: "Jehoshaphat" },
-          nickname: "龙",
-          position: "VP, Designer",
-          github: "https://github.com/ChristianJehoshaphatS",
-          email: "christianjehoshaphat@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Desi", last: "Mandasari" },
-          nickname: "Manda",
-          position: "VP, Talent",
-          github: "https://github.com/mandasari93",
-          email: "desimandasari1993@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Dheta", last: "Catur" },
-          nickname: "dheta",
-          position: "VP, Creative Services",
-          github: "https://github.com/dhetacm",
-          email: "theresiadhetacm@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Ipul", last: "Saepulloh" },
-          nickname: "ipul",
-          position: "SVP, Strategy",
-          github: "https://github.com/ipulsaepulloh",
-          email: "ipulsaepulloh9@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Iwin", last: "Pradana" },
-          nickname: "iwin",
-          position: "Chief Happiness Officer",
-          github: "https://github.com/Iwinrahardjo",
-          email: "iwinrahardjo@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Masagus", last: "Hariadi" },
-          nickname: "adi",
-          position: "Chief Executive Officer",
-          github: "https://github.com/hariadiarief",
-          email: "rinahafizhah@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Panji", last: "Gumelar" },
-          nickname: "Panji",
-          position: "VP, Technology",
-          github: "https://github.com/panjiggm",
-          email: "panjiggm@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
-        },
-        {
-          name: { first: "Yusuf", last: "Habibi" },
-          nickname: "yusuf",
-          position: "VP, Executive Producer",
-          github: "https://github.com/yusuf1998",
-          email: "yusufhabibi1998@gmail.com",
-          imageFront: `${process.env.PUBLIC_URL + "/images/team/arsyad-1.jpg"}`,
-          imageBack: `${process.env.PUBLIC_URL + "/images/team/arsyad-2.jpg"}`,
+          name: "Kk",
+          subName: "Chief Technology Officer",
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "/images/our-work/arsyad-1.jpg"}`,
+          imageBack: `${process.env.PUBLIC_URL +
+            "/images/our-work/arsyad-2.jpg"}`,
         },
       ],
     };
@@ -165,11 +96,11 @@ class OurWork extends React.Component {
                   // eslint-disable-next-line jsx-a11y/anchor-is-valid
                   <article
                     key={i}
-                    className={`owl-panel-item regular team `}
+                    className={`owl-panel-item regular client `}
                     style={{
                       backgroundImage: `url(${item.imageBack})`,
                     }}
-                    title={`${item.name.first} ${item.name.last}`}
+                    title={`${item.name}`}
                     onClick={this.onArticleClick}
                     onMouseLeave={this.onArticleMouseLeave}
                   >
@@ -180,11 +111,11 @@ class OurWork extends React.Component {
                       }}
                     >
                       <div className="banner-white" />
-                      <label className="foot">{item.nickname} </label>
+                      <label className="foot">{item.name} </label>
                       <div className="banner-transparent">
                         <div className="top">
                           <label>
-                            WHY INDONESIA CREATIVE &nbsp;
+                            CHECK IT &nbsp;
                             <i
                               className="fa fa-chevron-right"
                               style={{ lineHeight: 1.3 }}
@@ -192,28 +123,15 @@ class OurWork extends React.Component {
                           </label>
                         </div>
                         <div className="bottom">
-                          <h5>{item.position}</h5>
+                          <h5>{item.name}</h5>
                         </div>
                       </div>
                     </div>
                     <div className="narrative">
                       <div className="content">
                         <div className="top">
-                          <h4 className="first-name">{item.name.first}</h4>
-                          <h6 className="last-name">{item.name.last}</h6>
-                          <h6 className="position">{item.position}</h6>
-                          <p className="reason">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
-                          </p>
-                        </div>
-                        <div className="bottom">
-                          <a href={item.github} className="links">
-                            <i className="fa fa-github" />
-                          </a>
+                          <h5 className="position">{item.name}</h5>
+                          <p className="reason">{item.desc}</p>
                         </div>
                       </div>
                     </div>

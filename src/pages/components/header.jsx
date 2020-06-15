@@ -29,7 +29,7 @@ class Header extends React.Component {
           .css("z-index", 9);
       }
     });
-    $(".banner").click(function() {
+    $(".banner-header").click(function() {
       menuSheet = !menuSheet;
       if (menuSheet === true) {
         $(".menu-sheet")
@@ -73,34 +73,29 @@ class Header extends React.Component {
         <div className="menu-sheet">
           <div className="row">
             <div className="col-6 menu-items work">
-              <AnchorLink href="#our-work" className="banner">
+              <AnchorLink href="#our-work" className="banner-header">
                 <h1>WORK</h1>
               </AnchorLink>
             </div>
-            <div className="col-6 menu-items people">
-              <AnchorLink href="#our-clients" className="banner">
-                <h1>CLIENTS</h1>
+            <div className="col-6 menu-items what">
+              <AnchorLink href="#why" className="banner-header">
+                <h1>WHY?</h1>
               </AnchorLink>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 menu-items what">
-              <AnchorLink href="#why" className="banner">
-                <h1>WHY?</h1>
-              </AnchorLink>
-            </div>
-            <div className="col-3 menu-items locations">
-              <AnchorLink href="#location" className="banner">
+            <div className="col-4 menu-items locations">
+              <AnchorLink href="#location" className="banner-header">
                 <h1>LOCATION</h1>
               </AnchorLink>
             </div>
-            <div className="col-3 menu-items contacts">
-              <AnchorLink href="#contact" className="banner">
+            <div className="col-4 menu-items contacts">
+              <AnchorLink href="#contact" className="banner-header">
                 <h1>CONTACTS</h1>
               </AnchorLink>
             </div>
-            <div className="col-3 menu-items jobs">
-              <AnchorLink href="#jobs" className="banner">
+            <div className="col-4 menu-items jobs">
+              <AnchorLink href="#jobs" className="banner-header">
                 <h1>JOBS</h1>
               </AnchorLink>
             </div>

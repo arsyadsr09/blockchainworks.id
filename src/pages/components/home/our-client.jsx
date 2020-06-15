@@ -19,63 +19,200 @@ class OurClient extends React.Component {
     this.state = {
       ourClient: [
         {
-          name: "DIREKTORAT JENDERAL PAJAK",
-          nameSpread: ["DIREKTORAT", "JENDERAL", "PAJAK"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/djp.png"}`,
+          company: "DEFIWORKS",
+          companySpread: ["DEFIWORKS"],
+          imageBack: `${process.env.PUBLIC_URL +
+            "images/our-client/meet-up/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "images/our-client/defi.png"}`,
+          logo: `${process.env.PUBLIC_URL + "images/our-client/logo/defi.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.`,
+          projects: [
+            "DID: Indonesian Decentralized Identity (indid.io)",
+            "Payment: Stable-token money streaming (monstream.io)",
+            "Lending: Credit Union on Blockchain (credion.io)",
+            "Asset Tokenization & Decentralized Exchange",
+          ],
+        },
+        {
+          company: "title",
+        },
+        {
+          company: "DIREKTORAT JENDERAL PAJAK",
+          companySpread: ["DIREKTORAT", "JENDERAL", "PAJAK"],
+          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL + "images/our-client/djp.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/djp.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.`,
+          projects: [
+            "DJP Private Ethereum Network",
+            "TAX ID & KYC Shared Storage on Blockchain",
+            "Training: Blockchain Introduction for KYC",
+          ],
         },
         {
-          name: "title",
-        },
-        {
-          name: "TELKOM INDONESIA",
-          nameSpread: ["TELKOM", "INDONESIA"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/telkom.png"}`,
+          company: "TELKOM INDONESIA",
+          companySpread: ["TELKOM", "INDONESIA"],
+          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "images/our-client/telkom.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/telkom.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.`,
+          projects: [
+            "Telkom Private Ethereum Network",
+            "Blockchain for Logistics (Telkommetra Logee)",
+            "Training: How to Create Private Ethereum Network",
+          ],
         },
         {
-          name: "BANK NEGARA INDONESIA",
-          nameSpread: ["BANK", "NEGARA", "INDONESIA"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/bni.png"}`,
+          company: "BANK NEGARA INDONESIA",
+          companySpread: ["BANK", "NEGARA", "INDONESIA"],
+          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL + "images/our-client/bni.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/bni.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.`,
+          projects: [
+            "KYC Shared Storage on Blockchain",
+            "Training: Blockchain Introduction for KYC",
+          ],
         },
         {
-          name: "INDONESIA STOCK EXCHANGE",
-          nameSpread: ["INDONESIA", "STOCK", "EXCHANGE"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/idx.png"}`,
+          company: "INDONESIA STOCK EXCHANGE",
+          companySpread: ["INDONESIA", "STOCK", "EXCHANGE"],
+          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL + "images/our-client/idx.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/idx.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.`,
+          projects: [
+            "Blockchain Training for PMO Division",
+            "Blockchain Training for IT Division",
+          ],
         },
         {
-          name: "BADAN WAKAF INDONESIA",
-          nameSpread: ["BADAN", "WAKAF", "INDONESIA"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/bwi.png"}`,
+          company: "BADAN WAKAF INDONESIA",
+          companySpread: ["BADAN", "WAKAF", "INDONESIA"],
+          imageBack: `${process.env.PUBLIC_URL +
+            "images/our-client/meet-up/bwi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL + "images/our-client/bwi.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/bwi.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.`,
+          projects: [
+            "Quorum Consortium BWI-Telkom-Nazhir-Sharia Banks (LSPWU)",
+            "CWLS (Cash Waqf Linked Sukuk) on Blockchain for Ministry of Finance",
+            "Productive Waqf (Land and Property) for Office of Religious Affairs (KUA)",
+          ],
         },
         {
-          name: "TOKOIN",
-          nameSpread: ["TOKOIN"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/tokoin.png"}`,
+          company: "TOKOIN",
+          companySpread: ["TOKOIN"],
+          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "images/our-client/tokoin.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/tokoin.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.`,
+          projects: [
+            "TOKO Coin ERC20, API & Admin Dashboard",
+            "Blockchain for MSME Training Certification (Moodle Plugin)",
+          ],
         },
         {
-          name: "INDOCO CRYPTO EXCHANGE",
-          nameSpread: ["INDOCO", "CRYPTO", "EXCHANGE"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/indoco.png"}`,
+          company: "INDOCO CRYPTO EXCHANGE",
+          companySpread: ["INDOCO", "CRYPTO", "EXCHANGE"],
+          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "images/our-client/indoco.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/indoco.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.`,
+          projects: [
+            "RAJA Coin ERC20, Wallet & Admin Dashboard",
+            "Indoco Decentralized Crypto-Exchange",
+          ],
         },
         {
-          name: "HIMPUNAN PERS ONLINE INDONESIA",
-          nameSpread: ["HIMPUNAN", "PERS", "ONLINE", "INDONESIA"],
-          image: `${process.env.PUBLIC_URL + "images/our-client/hipoli.png"}`,
+          company: "HIMPUNAN PERS ONLINE INDONESIA",
+          companySpread: ["HIMPUNAN", "PERS", "ONLINE", "INDONESIA"],
+          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
+          imageFront: `${process.env.PUBLIC_URL +
+            "images/our-client/hipoli.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/hipoli.png"}`,
+          desc: `Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.`,
+          projects: [
+            "HPL Coin ERC20, Wallet & IEO Landing page",
+            "IEO Consultancy, Online Marketing & Community Management",
+          ],
         },
       ],
+      // selectedClient: {},
+      // selectedProject: {},
     };
   }
+
+  onArticleClick = (e) => {
+    e.preventDefault();
+    e.currentTarget.classList.add("selected");
+    // this.setState({
+    //   selectedClient: data,
+    //   selectedProject: data.projects[0],
+    // });
+  };
+
+  onArticleMouseLeave = (e) => {
+    e.preventDefault();
+    e.currentTarget.classList.remove("selected");
+    // this.setState({
+    //   selectedClient: {},
+    //   selectedProject: {},
+    // });
+  };
+
+  // onProjectClicked = (e, data) => {
+  //   e.preventDefault();
+  //   console.log(data);
+  //   this.setState({
+  //     selectedProject: data,
+  //   });
+  // };
+
   render() {
     const { ourClient } = this.state;
 
@@ -84,7 +221,7 @@ class OurClient extends React.Component {
         <div className="filter-white">
           <OwlCarousel ref="our-client" options={OwlOption}>
             {ourClient.map((item, i) => {
-              if (item.name === "title") {
+              if (item.company === "title") {
                 return (
                   <div key={i} className="owl-panel-item title">
                     <div>
@@ -96,16 +233,82 @@ class OurClient extends React.Component {
               } else {
                 return (
                   // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                  <a
+                  <article
                     key={i}
-                    href={`#${item.name.toLowerCase()}`}
-                    className="owl-panel-item regular"
+                    className={`owl-panel-item regular`}
                     style={{
-                      backgroundImage: `url(${item.image})`,
+                      backgroundImage: `url(${item.imageBack})`,
                     }}
-                    title={item.name}
+                    title={item.company}
+                    onClick={this.onArticleClick}
+                    onMouseLeave={this.onArticleMouseLeave}
                   >
-                    <div className="plus">
+                    <div
+                      className="mask"
+                      style={{
+                        backgroundImage: `url(${item.imageFront})`,
+                      }}
+                    >
+                      <div className="plus">
+                        <img
+                          className="button-expand"
+                          src={
+                            process.env.PUBLIC_URL +
+                            "images/expand-plus-white.png"
+                          }
+                          alt="expand-button"
+                        />
+                      </div>
+                      <label className="foot">{item.company} </label>
+                      <div className="banner">
+                        <div className="top">
+                          <img src={item.logo} alt={item.company} />
+                        </div>
+                        <div className="bottom">
+                          <div className="company">
+                            {item.companySpread.map((company, j) => {
+                              return <h4 key={j}>{company}</h4>;
+                            })}
+                          </div>
+                          <label>
+                            View Project &nbsp;
+                            <i
+                              className="fa fa-chevron-right"
+                              style={{ lineHeight: 1.3 }}
+                            />
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="narrative">
+                      <div className="left-content">
+                        <h5 className="name">{item.company}</h5>
+                        <p className="reason">{item.desc}</p>
+                      </div>
+                      <div className="right-content">
+                        <div className="top">
+                          <h6>List Of Project</h6>
+                          <div className="list-projects">
+                            {item.projects.map((project, key) => {
+                              return (
+                                <span
+                                  key={key}
+                                  // onClick={(e) =>
+                                  //   this.onProjectClicked(e, project)
+                                  // }
+                                >
+                                  {project}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        </div>
+                        {/* <div className="bottom">
+                          <h5 className="company">{item.company}</h5>
+                        </div> */}
+                      </div>
+                    </div>
+                    {/* <div className="plus">
                       <img
                         className="button-expand"
                         src={
@@ -115,20 +318,20 @@ class OurClient extends React.Component {
                         alt="expand-button"
                       />
                     </div>
-                    <label className="foot">{item.name}</label>
+                    <label className="foot">{item.company}</label>
                     <div className="banner">
                       <div className="top">
-                        <img src={item.logo} alt={item.name} />
+                        <img src={item.logo} alt={item.company} />
                       </div>
                       <div className="bottom">
                         <div>
-                          {item.nameSpread.map((name, j) => {
-                            return <h4 key={j}>{name}</h4>;
+                          {item.companySpread.map((company, j) => {
+                            return <h4 key={j}>{company}</h4>;
                           })}
                         </div>
-                      </div>
-                    </div>
-                  </a>
+                      </div> 
+                        </div> */}
+                  </article>
                 );
               }
             })}

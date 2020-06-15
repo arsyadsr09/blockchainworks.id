@@ -4,9 +4,8 @@ import Header from "./components/header.jsx";
 // section page
 import Intro from "./components/home/intro.jsx";
 import What from "./components/home/what.jsx";
-import OurWork from "./components/home/our-client.jsx";
+import OurClient from "./components/home/our-client.jsx";
 import Why from "./components/home/why.jsx";
-import OurClient from "./components/home/our-work.jsx";
 import Location from "./components/home/location.jsx";
 import ContactUs from "./components/home/contact-us.jsx";
 
@@ -20,7 +19,6 @@ class Index extends React.Component {
           <What />
           <OurClient />
           <Why />
-          <OurWork />
           <Location />
           <ContactUs />
         </main>
