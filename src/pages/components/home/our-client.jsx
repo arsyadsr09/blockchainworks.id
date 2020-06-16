@@ -21,10 +21,7 @@ class OurClient extends React.Component {
         {
           company: "DEFIWORKS",
           companySpread: ["DEFIWORKS"],
-          imageBack: `${process.env.PUBLIC_URL +
-            "images/our-client/meet-up/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL +
-            "images/our-client/defi.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/defi.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the
@@ -44,8 +41,7 @@ class OurClient extends React.Component {
         {
           company: "DIREKTORAT JENDERAL PAJAK",
           companySpread: ["DIREKTORAT", "JENDERAL", "PAJAK"],
-          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL + "images/our-client/djp.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/djp.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/djp.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the
@@ -61,9 +57,7 @@ class OurClient extends React.Component {
         {
           company: "TELKOM INDONESIA",
           companySpread: ["TELKOM", "INDONESIA"],
-          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL +
-            "images/our-client/telkom.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/telkom.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/telkom.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
@@ -80,8 +74,7 @@ class OurClient extends React.Component {
         {
           company: "BANK NEGARA INDONESIA",
           companySpread: ["BANK", "NEGARA", "INDONESIA"],
-          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL + "images/our-client/bni.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/bni.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/bni.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
           typesetting industry. Lorem Ipsum has been the
@@ -96,8 +89,7 @@ class OurClient extends React.Component {
         {
           company: "INDONESIA STOCK EXCHANGE",
           companySpread: ["INDONESIA", "STOCK", "EXCHANGE"],
-          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL + "images/our-client/idx.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/idx.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/idx.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the
@@ -112,9 +104,7 @@ class OurClient extends React.Component {
         {
           company: "BADAN WAKAF INDONESIA",
           companySpread: ["BADAN", "WAKAF", "INDONESIA"],
-          imageBack: `${process.env.PUBLIC_URL +
-            "images/our-client/meet-up/bwi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL + "images/our-client/bwi.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/bwi.png"}`,
           logo: `${process.env.PUBLIC_URL + "images/our-client/logo/bwi.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
           typesetting industry. Lorem Ipsum has been the
@@ -130,9 +120,7 @@ class OurClient extends React.Component {
         {
           company: "TOKOIN",
           companySpread: ["TOKOIN"],
-          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL +
-            "images/our-client/tokoin.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/tokoin.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/tokoin.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
@@ -148,9 +136,7 @@ class OurClient extends React.Component {
         {
           company: "INDOCO CRYPTO EXCHANGE",
           companySpread: ["INDOCO", "CRYPTO", "EXCHANGE"],
-          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL +
-            "images/our-client/indoco.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/indoco.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/indoco.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
@@ -166,9 +152,7 @@ class OurClient extends React.Component {
         {
           company: "HIMPUNAN PERS ONLINE INDONESIA",
           companySpread: ["HIMPUNAN", "PERS", "ONLINE", "INDONESIA"],
-          imageBack: `${process.env.PUBLIC_URL + "images/our-client/defi.png"}`,
-          imageFront: `${process.env.PUBLIC_URL +
-            "images/our-client/hipoli.png"}`,
+          image: `${process.env.PUBLIC_URL + "images/our-client/hipoli.png"}`,
           logo: `${process.env.PUBLIC_URL +
             "images/our-client/logo/hipoli.png"}`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
@@ -237,7 +221,7 @@ class OurClient extends React.Component {
                     key={i}
                     className={`owl-panel-item regular`}
                     style={{
-                      backgroundImage: `url(${item.imageBack})`,
+                      backgroundImage: `url(${item.image})`,
                     }}
                     title={item.company}
                     onClick={this.onArticleClick}
@@ -245,9 +229,9 @@ class OurClient extends React.Component {
                   >
                     <div
                       className="mask"
-                      style={{
-                        backgroundImage: `url(${item.imageFront})`,
-                      }}
+                      // style={{
+                      //   backgroundImage: `url(${item.imageFront})`,
+                      // }}
                     >
                       <div className="plus">
                         <img

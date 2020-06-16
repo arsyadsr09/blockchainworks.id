@@ -352,4 +352,15 @@
       }
     }
   }
+  .gallery {
+    width: 100vw;
+    height: 100vh;
+    // background-color: #282828;
+    color: #fff;
+    .gallery-content {
+      background: rgba(40, 40, 40, 0.678);
+      width: 100vw;
+      height: 100vh;
+    }
+  }
 }

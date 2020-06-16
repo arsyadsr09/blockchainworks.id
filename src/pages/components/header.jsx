@@ -84,17 +84,22 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-4 menu-items locations">
+            <div className="col-3 menu-items gallery">
+              <AnchorLink href="#galery" className="banner-header">
+                <h1>GALLERY</h1>
+              </AnchorLink>
+            </div>
+            <div className="col-3 menu-items locations">
               <AnchorLink href="#location" className="banner-header">
                 <h1>LOCATION</h1>
               </AnchorLink>
             </div>
-            <div className="col-4 menu-items contacts">
+            <div className="col-3 menu-items contacts">
               <AnchorLink href="#contact" className="banner-header">
                 <h1>CONTACTS</h1>
               </AnchorLink>
             </div>
-            <div className="col-4 menu-items jobs">
+            <div className="col-3 menu-items jobs">
               <AnchorLink href="#jobs" className="banner-header">
                 <h1>JOBS</h1>
               </AnchorLink>
