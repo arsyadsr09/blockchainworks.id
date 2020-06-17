@@ -22,7 +22,7 @@ class Index extends React.Component {
           <Why />
           <OurGallery />
           <Location />
-          {/* <ContactUs /> */}
+          <ContactUs />
         </main>
       </div>
     );
