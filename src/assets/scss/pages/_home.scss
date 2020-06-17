@@ -127,6 +127,7 @@
     height: 100vh;
   }
   .location {
+    position: relative;
     width: 100vw;
     height: 120vh;
     .location-content {
@@ -354,13 +355,13 @@
   }
   .gallery {
     width: 100vw;
-    height: 100vh;
-    // background-color: #282828;
+    height: auto;
+    background-color: #282828;
     color: #fff;
     .gallery-content {
-      background: rgba(40, 40, 40, 0.678);
+      // background: rgba(40, 40, 40, 0.678);
       width: 100vw;
-      height: 100vh;
+      height: auto;
     }
   }
 }

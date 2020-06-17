@@ -30,7 +30,7 @@ class Intro extends React.Component {
                 strings={[
                   "PRIVATE INFRASTRUCTURE",
                   "APPLICATION SYSTEM",
-                  "TOKENIZATION ASSETS",
+                  "TOKENIZATION OF ASSETS",
                   "ICO/IEO CONSULTANCY",
                   "CRYPTO-EXCHANGE DEV",
                 ]}
