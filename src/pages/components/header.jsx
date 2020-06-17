@@ -72,34 +72,34 @@ class Header extends React.Component {
         </div>
         <div className="menu-sheet">
           <div className="row">
-            <div className="col-6 menu-items work">
+            <div className="col-md-6 col-sm-12 col-xs-12 menu-items work">
               <AnchorLink href="#our-work" className="banner-header">
                 <h1>WORK</h1>
               </AnchorLink>
             </div>
-            <div className="col-6 menu-items what">
+            <div className="col-md-6 col-sm-12 col-xs-12 menu-items what">
               <AnchorLink href="#why" className="banner-header">
                 <h1>WHY?</h1>
               </AnchorLink>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 menu-items gallery">
+            <div className="col-md-3 col-sm-12 col-xs-12 menu-items gallery">
               <AnchorLink href="#galery" className="banner-header">
                 <h1>GALLERY</h1>
               </AnchorLink>
             </div>
-            <div className="col-3 menu-items locations">
+            <div className="col-md-3 col-sm-12 col-xs-12 menu-items locations">
               <AnchorLink href="#location" className="banner-header">
                 <h1>LOCATION</h1>
               </AnchorLink>
             </div>
-            <div className="col-3 menu-items contacts">
+            <div className="col-md-3 col-sm-12 col-xs-12 menu-items contacts">
               <AnchorLink href="#contact" className="banner-header">
                 <h1>CONTACTS</h1>
               </AnchorLink>
             </div>
-            <div className="col-3 menu-items jobs">
+            <div className="col-md-3 col-sm-12 col-xs-12 menu-items jobs">
               <AnchorLink href="#jobs" className="banner-header">
                 <h1>JOBS</h1>
               </AnchorLink>
