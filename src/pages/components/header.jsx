@@ -5,52 +5,28 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 class Header extends React.Component {
   componentDidMount() {
     var menuSheet = false;
-    $("#ham-menu").click(function() {
+    $("#ham-menu").click(function () {
       menuSheet = !menuSheet;
       if (menuSheet === true) {
-        $(".menu-sheet")
-          .css("opacity", 1)
-          .css("z-index", 9);
-        $("#ham-menu")
-          .removeClass("spinning")
-          .addClass("spinning-result");
-        $("#logo-header")
-          .css("opacity", 0)
-          .css("z-index", -1);
+        $(".menu-sheet").css("opacity", 1).css("z-index", 9);
+        $("#ham-menu").removeClass("spinning").addClass("spinning-result");
+        $("#logo-header").css("opacity", 0).css("z-index", -1);
       } else {
-        $(".menu-sheet")
-          .css("opacity", 0)
-          .css("z-index", -1);
-        $("#ham-menu")
-          .removeClass("spinning-result")
-          .addClass("spinning");
-        $("#logo-header")
-          .css("opacity", 1)
-          .css("z-index", 9);
+        $(".menu-sheet").css("opacity", 0).css("z-index", -1);
+        $("#ham-menu").removeClass("spinning-result").addClass("spinning");
+        $("#logo-header").css("opacity", 1).css("z-index", 9);
       }
     });
-    $(".banner-header").click(function() {
+    $(".banner-header").click(function () {
       menuSheet = !menuSheet;
       if (menuSheet === true) {
-        $(".menu-sheet")
-          .css("opacity", 1)
-          .css("z-index", 9);
-        $("#ham-menu")
-          .removeClass("spinning")
-          .addClass("spinning-result");
-        $("#logo-header")
-          .css("opacity", 0)
-          .css("z-index", -1);
+        $(".menu-sheet").css("opacity", 1).css("z-index", 9);
+        $("#ham-menu").removeClass("spinning").addClass("spinning-result");
+        $("#logo-header").css("opacity", 0).css("z-index", -1);
       } else {
-        $(".menu-sheet")
-          .css("opacity", 0)
-          .css("z-index", -1);
-        $("#ham-menu")
-          .removeClass("spinning-result")
-          .addClass("spinning");
-        $("#logo-header")
-          .css("opacity", 1)
-          .css("z-index", 9);
+        $(".menu-sheet").css("opacity", 0).css("z-index", -1);
+        $("#ham-menu").removeClass("spinning-result").addClass("spinning");
+        $("#logo-header").css("opacity", 1).css("z-index", 9);
       }
     });
   }
@@ -77,29 +53,29 @@ class Header extends React.Component {
                 <h1>WORK</h1>
               </AnchorLink>
             </div>
-            <div className="col-md-6 col-sm-12 col-xs-12 menu-items what">
+            <div className="col-md-3 col-sm-12 col-xs-12 menu-items what">
               <AnchorLink href="#why" className="banner-header">
                 <h1>WHY?</h1>
               </AnchorLink>
             </div>
-          </div>
-          <div className="row">
             <div className="col-md-3 col-sm-12 col-xs-12 menu-items gallery">
               <AnchorLink href="#galery" className="banner-header">
                 <h1>GALLERY</h1>
               </AnchorLink>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12 menu-items locations">
+          </div>
+          <div className="row">
+            <div className="col-md-4 col-sm-12 col-xs-12 menu-items locations">
               <AnchorLink href="#location" className="banner-header">
                 <h1>LOCATION</h1>
               </AnchorLink>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12 menu-items contacts">
+            <div className="col-md-4 col-sm-12 col-xs-12 menu-items contacts">
               <AnchorLink href="#contact" className="banner-header">
                 <h1>CONTACTS</h1>
               </AnchorLink>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12 menu-items jobs">
+            <div className="col-md-4 col-sm-12 col-xs-12 menu-items jobs">
               <AnchorLink href="#jobs" className="banner-header">
                 <h1>JOBS</h1>
               </AnchorLink>

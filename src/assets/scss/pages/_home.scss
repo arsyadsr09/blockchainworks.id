@@ -16,11 +16,9 @@
       /* font-family: "Staatliches", cursive; */
       .text-intro {
         width: 45vw;
-        h1 {
+        .show-h1 {
           font-size: 3.5rem;
           font-weight: 700;
-        }
-        .show-h1 {
           margin: -14px 0;
           /* margin-left: 100px; */
           z-index: 3;
@@ -180,6 +178,7 @@
     }
   }
   .contact-us {
+    position: relative;
     height: 100vh;
     h2 {
       color: #fff;
@@ -326,7 +325,7 @@
         right: 0;
       }
       &.close {
-        right: -101%;
+        right: -100%;
       }
       .btn-close {
         position: absolute;

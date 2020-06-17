@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -13,7 +13,7 @@
   .logo {
     top: 3vh;
     left: 1.5vw;
-    width: 12vw;
+    // width: 12vw;
     opacity: 1;
     transition-duration: 0.5s;
     transition-timing-function: 0.5s;
@@ -64,7 +64,7 @@
       align-items: center;
       background-size: cover;
       background-repeat: no-repeat;
-      
+
       &.work {
         background-image: url("/images/menu-img/work.jpg");
       }
