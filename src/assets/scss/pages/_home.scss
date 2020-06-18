@@ -180,7 +180,7 @@
   }
   .contact-us {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     h2 {
       color: #fff;
       font-weight: 900;
@@ -235,7 +235,7 @@
     }
     .contact {
       position: absolute;
-      left: -50vw;
+      left: -50%;
       width: 100vw;
       height: 100vh;
       background-image: url("/images/background/contact-background.jpg");
@@ -243,11 +243,18 @@
       background-size: cover;
       color: #fff;
       transition: left 0.5s ease;
+      // transform: translateX(-50%);
       &.selected {
+        // transform: translateX(50%);
         left: 0;
       }
       &.close {
         left: -100%;
+        opacity: 1 !important;
+        &:not(:disabled):not(.disabled):focus,
+        &:not(:disabled):not(.disabled):hover {
+          opacity: 1 !important;
+        }
       }
       .btn-close {
         position: absolute;
@@ -258,6 +265,9 @@
       }
       .top {
         margin: 7vh 0;
+        h2 {
+          line-height: 0.9;
+        }
       }
       .bottom {
         margin: 7vh 0;
@@ -327,6 +337,11 @@
       }
       &.close {
         right: -100%;
+        opacity: 1 !important;
+        &:not(:disabled):not(.disabled):focus,
+        &:not(:disabled):not(.disabled):hover {
+          opacity: 1 !important;
+        }
       }
       .btn-close {
         position: absolute;
@@ -338,6 +353,9 @@
       .top {
         margin: 7vh 0;
         padding: 0 5vw;
+        h3 {
+          line-height: 0.9;
+        }
       }
       .bottom {
         margin: 7vh 0;
