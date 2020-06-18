@@ -10,7 +10,9 @@ class Intro extends React.Component {
           params={{
             particles: {
               number: {
-                value: 150,
+                value: window.matchMedia("(min-width: 650px)").matches
+                  ? 150
+                  : 75,
               },
               size: {
                 value: 1,

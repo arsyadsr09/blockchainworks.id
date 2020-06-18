@@ -253,21 +253,21 @@
             }
           }
         }
-        .bottom {
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-          padding-right: 1vw;
-          height: 4vh;
-          width: 21vw;
-          .company {
-            text-transform: uppercase;
-            font-weight: 900;
-            font-size: 0.8rem;
-            color: #fff;
-            // color: rgb(105, 35, 35);
-          }
-        }
+        // .bottom {
+        //   display: flex;
+        //   justify-content: flex-end;
+        //   align-items: center;
+        //   padding-right: 1vw;
+        //   height: 4vh;
+        //   width: 21vw;
+        //   .company {
+        //     text-transform: uppercase;
+        //     font-weight: 900;
+        //     font-size: 0.8rem;
+        //     color: #fff;
+        //     // color: rgb(105, 35, 35);
+        //   }
+        // }
       }
     }
     // &.team {
@@ -392,10 +392,12 @@
   .owl-prev {
     position: absolute;
     left: 0;
+    opacity: 0.8;
   }
   .owl-next {
     position: absolute;
     left: unset;
     right: 0;
+    opacity: 0.8;
   }
 }

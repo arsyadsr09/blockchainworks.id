@@ -58,8 +58,9 @@ class OurClient extends React.Component {
           company: "TELKOM INDONESIA",
           companySpread: ["TELKOM", "INDONESIA"],
           image: `${process.env.PUBLIC_URL + "images/our-client/telkom.png"}`,
-          logo: `${process.env.PUBLIC_URL +
-            "images/our-client/logo/telkom.png"}`,
+          logo: `${
+            process.env.PUBLIC_URL + "images/our-client/logo/telkom.png"
+          }`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
               typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever since the 1500s,
@@ -121,8 +122,9 @@ class OurClient extends React.Component {
           company: "TOKOIN",
           companySpread: ["TOKOIN"],
           image: `${process.env.PUBLIC_URL + "images/our-client/tokoin.png"}`,
-          logo: `${process.env.PUBLIC_URL +
-            "images/our-client/logo/tokoin.png"}`,
+          logo: `${
+            process.env.PUBLIC_URL + "images/our-client/logo/tokoin.png"
+          }`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s,
@@ -137,8 +139,9 @@ class OurClient extends React.Component {
           company: "INDOCO CRYPTO EXCHANGE",
           companySpread: ["INDOCO", "CRYPTO", "EXCHANGE"],
           image: `${process.env.PUBLIC_URL + "images/our-client/indoco.png"}`,
-          logo: `${process.env.PUBLIC_URL +
-            "images/our-client/logo/indoco.png"}`,
+          logo: `${
+            process.env.PUBLIC_URL + "images/our-client/logo/indoco.png"
+          }`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s,
@@ -153,8 +156,9 @@ class OurClient extends React.Component {
           company: "HIMPUNAN PERS ONLINE INDONESIA",
           companySpread: ["HIMPUNAN", "PERS", "ONLINE", "INDONESIA"],
           image: `${process.env.PUBLIC_URL + "images/our-client/hipoli.png"}`,
-          logo: `${process.env.PUBLIC_URL +
-            "images/our-client/logo/hipoli.png"}`,
+          logo: `${
+            process.env.PUBLIC_URL + "images/our-client/logo/hipoli.png"
+          }`,
           desc: `Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s,
@@ -201,7 +205,7 @@ class OurClient extends React.Component {
     const { ourClient } = this.state;
 
     return (
-      <section className="our-work" id="our-client">
+      <section className="our-client" id="our-client">
         <div className="filter-white">
           <OwlCarousel ref="our-client" options={OwlOption}>
             {ourClient.map((item, i) => {

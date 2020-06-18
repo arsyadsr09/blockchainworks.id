@@ -2,6 +2,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header {
     .ham-menu {
+      right: 5vw !important;
       .text-menu {
         display: none;
       }
@@ -25,12 +26,129 @@
         margin-left: -4vw !important;
       }
     }
+    .what {
+      .what-content {
+        padding: 50px 0px;
+        padding-top: 80px;
+        .title-what {
+          height: 10vh !important;
+        }
+        h1 {
+          font-size: 2.2rem !important;
+        }
+        .padding-p {
+          padding: 50px 30px;
+          p {
+            line-height: 25px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 50px 0px;
+        padding-top: 80px;
+        .title-why {
+          height: 10vh !important;
+        }
+        h1 {
+          font-size: 2.2rem !important;
+        }
+        .padding-p {
+          padding: 50px 30px;
+          p {
+            line-height: 25px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 50vw !important;
+        &.regular {
+          .mask {
+            width: 50vw !important;
+            .banner {
+              width: 50vw !important;
+            }
+            &:hover {
+              .top {
+                width: 50vw !important;
+              }
+              .bottom {
+                width: 50vw !important;
+              }
+            }
+            label {
+              &.foot {
+                font-size: 0.22rem !important;
+              }
+            }
+          }
+          &.selected {
+            width: 95vw !important;
+          }
+          .narrative {
+            width: 95vw !important;
+            .left-content {
+              width: 50vw !important;
+              padding: 3vh 4vw 0 4vw;
+              .reason {
+                font-size: 0.6rem;
+                line-height: 1.8;
+              }
+            }
+            .right-content {
+              width: 55vw !important;
+              .top {
+                padding-right: 2vw !important;
+                padding-left: 2vw !important;
+                padding-top: 3vw !important;
+                width: 55vw !important;
+
+                .list-projects {
+                  span {
+                    font-size: 0.5rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.title {
+          padding: 0 3.5vw;
+        }
+      }
+    }
+    .location {
+      .flex-fix {
+        justify-content: center !important;
+        padding-right: 0 !important;
+        padding-bottom: 50px;
+      }
+      .flex-content {
+        justify-content: center;
+        h1 {
+          font-size: 3.3rem !important;
+          text-align: center;
+        }
+        .address {
+          font-size: 0.8rem !important;
+          text-align: center;
+        }
+      }
+    }
   }
 }
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 650px) {
   .header {
     .ham-menu {
+      right: 2.5vw !important;
       .text-menu {
         display: none;
       }
@@ -54,12 +172,119 @@
         margin-left: -4vw !important;
       }
     }
+    .what {
+      .what-content {
+        padding: 50px 0px;
+        padding-top: 80px;
+        .title-what {
+          height: 10vh !important;
+        }
+        h1 {
+          font-size: 2.5rem !important;
+        }
+        .padding-p {
+          p {
+            line-height: 30px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 50px 0px;
+        padding-top: 80px;
+        .title-why {
+          height: 10vh !important;
+        }
+        h1 {
+          font-size: 2.5rem !important;
+        }
+        .padding-p {
+          p {
+            line-height: 30px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 35vw !important;
+        &.regular {
+          .mask {
+            width: 35vw !important;
+            .banner {
+              width: 35vw !important;
+            }
+            &:hover {
+              .top {
+                width: 35vw !important;
+              }
+              .bottom {
+                width: 35vw !important;
+              }
+            }
+            label {
+              &.foot {
+                font-size: 0.52rem;
+              }
+            }
+          }
+          &.selected {
+            width: 85vw !important;
+          }
+          .narrative {
+            width: 85vw !important;
+            .left-content {
+              width: 35vw !important;
+              .reason {
+                font-size: 0.7rem;
+                line-height: 1.8;
+              }
+            }
+            .right-content {
+              width: 50vw !important;
+              .top {
+                padding-right: 2vw !important;
+                padding-left: 2vw !important;
+                padding-top: 3vw !important;
+                width: 50vw !important;
+              }
+            }
+          }
+        }
+        &.title {
+          padding: 0 2vw;
+        }
+      }
+    }
+    .location {
+      .flex-fix {
+        justify-content: center !important;
+        padding-right: 0 !important;
+        padding-bottom: 50px;
+      }
+      .flex-content {
+        justify-content: center;
+        h1 {
+          text-align: center;
+        }
+        .address {
+          font-size: 1rem !important;
+          text-align: center;
+        }
+      }
+    }
   }
 }
 
 @media only screen and (min-device-width: 650px) and (max-device-width: 767px) {
   .header {
     .ham-menu {
+      right: 1.5vw !important;
       .text-menu {
         display: none;
       }
@@ -81,6 +306,105 @@
       }
       .text-marquee {
         margin-left: -4vw !important;
+      }
+    }
+    .what {
+      .what-content {
+        padding: 50px 0px;
+        padding-top: 80px;
+        .title-what {
+          height: 10vh !important;
+        }
+        h1 {
+          font-size: 2.5rem !important;
+        }
+        .padding-p {
+          p {
+            line-height: 30px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 50px 0px;
+        padding-top: 80px;
+        .title-why {
+          height: 10vh !important;
+        }
+        h1 {
+          font-size: 2.5rem !important;
+        }
+        .padding-p {
+          p {
+            line-height: 30px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 25vw !important;
+        &.regular {
+          .mask {
+            width: 25vw !important;
+            .banner {
+              width: 25vw !important;
+            }
+            &:hover {
+              .top {
+                width: 25vw !important;
+              }
+              .bottom {
+                width: 25vw !important;
+              }
+            }
+            label {
+              &.foot {
+                font-size: 0.52rem;
+              }
+            }
+          }
+          &.selected {
+            width: 57vw !important;
+          }
+          .narrative {
+            width: 57vw !important;
+            .left-content {
+              width: 25vw !important;
+            }
+            .right-content {
+              width: 32vw !important;
+              .top {
+                padding-right: 1.5vw !important;
+                padding-left: 1.5vw !important;
+                padding-top: 2vw !important;
+                width: 32vw !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    .location {
+      .flex-fix {
+        justify-content: center !important;
+        padding-right: 0 !important;
+        padding-bottom: 50px;
+      }
+      .flex-content {
+        justify-content: center;
+        h1 {
+          text-align: center;
+        }
+        .address {
+          font-size: 1rem !important;
+          text-align: center;
+        }
       }
     }
   }
@@ -106,6 +430,85 @@
         margin-left: -4vw !important;
       }
     }
+    .what {
+      .what-content {
+        padding: 50px 0px;
+        h1 {
+          font-size: 2.8rem !important;
+        }
+        .padding-p {
+          p {
+            line-height: 30px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 50px 0px;
+        h1 {
+          font-size: 2.8rem !important;
+        }
+        .padding-p {
+          p {
+            line-height: 30px !important;
+            letter-spacing: 1px !important;
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 23vw !important;
+        &.regular {
+          .mask {
+            width: 23vw !important;
+            .banner {
+              width: 23vw !important;
+            }
+            &:hover {
+              .top {
+                width: 23vw !important;
+              }
+              .bottom {
+                width: 23vw !important;
+              }
+            }
+            label {
+              &.foot {
+                font-size: 0.52rem;
+              }
+            }
+          }
+          &.selected {
+            width: 55vw !important;
+          }
+          .narrative {
+            width: 55vw !important;
+            .left-content {
+              width: 23vw !important;
+            }
+            .right-content {
+              width: 32vw !important;
+              .top {
+                padding-right: 1.5vw !important;
+                padding-left: 1.5vw !important;
+                padding-top: 2vw !important;
+                width: 32vw !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    .location {
+      .address {
+        font-size: 1rem !important;
+      }
+    }
   }
 }
 
@@ -129,176 +532,67 @@
         margin-left: -5vw !important;
       }
     }
+    .what {
+      .what-content {
+        padding: 50px 30px;
+        h1 {
+          font-size: 3rem !important;
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 50px 30px;
+        h1 {
+          font-size: 3rem !important;
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 18vw !important;
+        &.regular {
+          .mask {
+            width: 18vw !important;
+            .banner {
+              width: 18vw !important;
+            }
+            &:hover {
+              .top {
+                width: 18vw !important;
+              }
+              .bottom {
+                width: 18vw !important;
+              }
+            }
+            label {
+              &.foot {
+                font-size: 0.52rem;
+              }
+            }
+          }
+          &.selected {
+            width: 45vw !important;
+          }
+          .narrative {
+            width: 45vw !important;
+            .left-content {
+              width: 18vw !important;
+            }
+            .right-content {
+              width: 27vw !important;
+              .top {
+                width: 27vw !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    .location {
+      .address {
+        font-size: 1rem !important;
+      }
+    }
   }
 }
-
-// /* iPads (landscape) ----------- */
-// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-//   /* Styles */
-// }
-
-// /* iPads (portrait) ----------- */
-// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-//   /* Styles */
-// }
-
-// /**********
-// iPad 3
-// **********/
-// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// /* Desktops and laptops ----------- */
-// @media only screen and (min-width: 1224px) {
-//   /* Styles */
-// }
-
-// /* Large screens ----------- */
-// @media only screen and (min-width: 1824px) {
-//   /* Styles */
-// }
-
-// /* iPhone 4 ----------- */
-// @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// /* iPhone 5 ----------- */
-// @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// /* iPhone 6, 7, 8 ----------- */
-// @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// /* iPhone 6+, 7+, 8+ ----------- */
-// @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// /* iPhone X ----------- */
-// @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-// /* iPhone XS Max, XR ----------- */
-// @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-// /* Samsung Galaxy S3 ----------- */
-// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-//   /* Styles */
-// }
-
-// /* Samsung Galaxy S4 ----------- */
-// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-// /* Samsung Galaxy S5 ----------- */
-// @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-// @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-//   /* Styles */
-// }
-
-/* for common devices
-source https: //responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/ */
-
-/* img,
-iframe,
-object,
-embed,
-video {
-    width: 100%;
-    max-width: 100%;
-}
-
- for responsive media
-source from https: //responsivedesign.is/develop/responsive-media/ */
-
-* {
-  /* Calculation */
-  --diff: calc(var(--max-size) - var(--min-size));
-  --responsive: calc(
-    (var(--min-size) * 1px) + var(--diff) * ((100vw - 420px) / (1200 - 420))
-  );
-  /* Ranges from 421px to 1199px */
-}
-
-h1 {
-  --max-size: 50;
-  --min-size: 25;
-  font-size: var(--responsive);
-}
-
-h2 {
-  --max-size: 40;
-  --min-size: 20;
-  font-size: var(--responsive);
-}
-
-p {
-  --max-size: 20;
-  --min-size: 14;
-  font-size: var(--responsive);
-}
-
-@media (min-width: 1200px) {
-  h1,
-  p {
-    font-size: calc(var(--max-font) * 1px);
-  }
-}
-
-@media (max-width: 420px) {
-  h1,
-  p {
-    font-size: calc(var(--min-font) * 1px);
-  }
-}
-
-/* Responsive fonts with CSS Variables for above code
-source from https: //codepen.io/dannievinther/pen/GNExxb */

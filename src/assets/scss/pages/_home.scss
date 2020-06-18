@@ -1,7 +1,7 @@
 .content {
   .intro {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #282828;
     .intro-content {
       /* background: rgba(255, 255, 255, 0.493); */
@@ -38,11 +38,12 @@
     }
   }
   .what {
+    position: relative;
     width: 100vw;
-    height: 130vh;
+    min-height: 100vh;
     .what-content {
       width: 100vw;
-      height: 130vh;
+      height: 100%;
       color: #fff;
       background: rgba(30, 144, 255, 0.7);
       // background: rgba(226, 67, 7, 0.7);
@@ -65,30 +66,27 @@
       }
       .padding-p {
         padding: 50px;
-        line-height: 30px;
-        letter-spacing: 1px;
-        font-size: 1rem;
+        p {
+          line-height: 30px;
+          letter-spacing: 1px;
+          font-size: 1rem;
+        }
       }
     }
   }
-  .our-work {
+  .our-client {
     background-image: url("/images/background/our-work-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
   }
   .why {
+    position: relative;
     width: 100vw;
-    height: 117vh;
-    .yt-background {
-      width: 100vw;
-      height: 117vh;
-      position: absolute;
-      z-index: -1;
-    }
+    min-height: 100vh;
     .why-content {
-      width: 100vw;
-      height: 117vh;
+      width: 100%;
+      min-height: 100vh;
       color: #fff;
       background: rgba(30, 144, 255, 0.8);
       padding: 3rem 0;
@@ -127,13 +125,12 @@
   .location {
     position: relative;
     width: 100vw;
-    height: 120vh;
+    min-height: 100vh;
     .location-content {
       background: rgba(255, 255, 255, 0.8);
       width: 100vw;
-      height: 120vh;
+      min-height: 100vh;
       color: #282828;
-      padding: 100px 200px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -156,24 +153,28 @@
           }
         }
       }
-      .item-loc {
-        /* display: flex; */
-        /* cursor: pointer; */
-        margin: -10px 0;
-        h1 {
-          color: rgb(30, 144, 255);
-          font-weight: 900;
-          font-size: 4rem;
-          margin: 0;
-          line-height: 1;
+      .flex-content {
+        display: flex;
+        align-items: center;
+        .item-loc {
+          /* display: flex; */
+          /* cursor: pointer; */
+          margin: -10px 0;
+          h1 {
+            color: rgb(30, 144, 255);
+            font-weight: 900;
+            font-size: 4rem;
+            margin: 0;
+            line-height: 1;
+          }
         }
-      }
-      .address {
-        color: #282828;
-        font-size: 1.3rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        margin: 0;
+        .address {
+          color: #282828;
+          font-size: 1.3rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin: 0;
+        }
       }
     }
   }
@@ -234,7 +235,7 @@
     }
     .contact {
       position: absolute;
-      left: -50%;
+      left: -50vw;
       width: 100vw;
       height: 100vh;
       background-image: url("/images/background/contact-background.jpg");
@@ -313,7 +314,7 @@
     }
     .jobs {
       position: absolute;
-      right: -50%;
+      right: -50vw;
       width: 100vw;
       height: 100vh;
       background-image: url("/images/background/jobs-background.jpg");
