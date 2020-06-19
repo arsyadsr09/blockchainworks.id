@@ -10,7 +10,15 @@ class Intro extends React.Component {
           params={{
             particles: {
               number: {
-                value: window.matchMedia("(min-width: 650px)").matches
+                value: window.matchMedia("(min-width: 3840px)").matches
+                  ? 1000
+                  : window.matchMedia("(min-width: 2560px)").matches
+                  ? 500
+                  : window.matchMedia("(min-width: 1920px)").matches
+                  ? 300
+                  : window.matchMedia("(min-width: 1440px)").matches
+                  ? 230
+                  : window.matchMedia("(min-width: 650px)").matches
                   ? 150
                   : 75,
               },

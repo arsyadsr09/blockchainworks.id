@@ -630,3 +630,578 @@
     }
   }
 }
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1920px) {
+  .header {
+    .logo {
+      img {
+        width: 10vw !important;
+      }
+    }
+    .ham-menu {
+      width: 5vw !important;
+      .text-menu {
+        font-size: 0.9rem !important;
+        margin-left: -60px !important;
+      }
+      .icon-menu {
+        font-size: 2rem !important;
+      }
+    }
+  }
+  .content {
+    .intro {
+      .text-intro {
+        width: 50vw !important;
+        .show-h1 {
+          font-size: 3.8rem !important;
+        }
+      }
+      .text-marquee {
+        margin-left: -5vw !important;
+      }
+    }
+    .what {
+      .what-content {
+        padding: 100px 50px;
+        h1 {
+          font-size: 3.8rem !important;
+        }
+        .padding-p {
+          padding: 100px;
+          p {
+            line-height: 40px;
+            letter-spacing: 1px;
+            font-size: 1.1rem;
+          }
+          h6 {
+            margin-top: 25px;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 100px 50px;
+        h1 {
+          font-size: 3.8rem !important;
+        }
+        .padding-p {
+          padding: 100px;
+          p {
+            line-height: 40px;
+            letter-spacing: 1px;
+            font-size: 1.1rem;
+          }
+          h6 {
+            margin-top: 25px;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 15vw !important;
+        &.regular {
+          .mask {
+            width: 15vw !important;
+            .plus {
+              .button-expand {
+                width: 1.7vw !important;
+                height: 1.7vw !important;
+              }
+            }
+            .banner {
+              width: 15vw !important;
+            }
+            &:hover {
+              .top {
+                width: 15vw !important;
+              }
+              .bottom {
+                width: 15vw !important;
+              }
+            }
+            label {
+              &.foot {
+                font-size: 0.68rem;
+              }
+            }
+          }
+          &.selected {
+            width: 35vw !important;
+          }
+          .narrative {
+            width: 35vw !important;
+            .left-content {
+              width: 15vw !important;
+              .name {
+                font-size: 1.2rem !important;
+              }
+              .reason {
+                font-size: 0.85rem !important;
+              }
+            }
+            .right-content {
+              width: 20vw !important;
+              .top {
+                padding-top: 2.5vh !important;
+                width: 20vw !important;
+                h6 {
+                  font-size: 1.1rem !important;
+                }
+                .list-projects {
+                  span {
+                    font-size: 0.75rem !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.title {
+          padding: 0 1.5vw;
+          h2 {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+    .location {
+      .location-content {
+        .flex-fix {
+          .square {
+            height: 13vw !important;
+            width: 13vw !important;
+            h2 {
+              font-size: 2.2rem !important;
+            }
+          }
+        }
+        .flex-content {
+          h1 {
+            font-size: 4.4rem !important;
+            line-height: 1 !important;
+          }
+        }
+        .address {
+          font-size: 1.2rem !important;
+        }
+      }
+    }
+    .contact-us {
+      h2 {
+        font-size: 2.3rem !important;
+      }
+      .flex-fix {
+        .square {
+          height: 15vw !important;
+          width: 15vw !important;
+        }
+      }
+      .jobs {
+        .top {
+          margin: 4vh 0 !important;
+          h3 {
+            font-size: 2.3rem !important;
+          }
+        }
+        .bottom {
+          margin: 4vh 0 !important;
+          p {
+            font-size: 1.1rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 1920px) and (max-device-width: 2560px) {
+  .header {
+    .logo {
+      img {
+        width: 10vw !important;
+      }
+    }
+    .ham-menu {
+      width: 5vw !important;
+      .text-menu {
+        font-size: 1.1rem !important;
+        margin-left: -70px !important;
+      }
+      .icon-menu {
+        font-size: 2.3rem !important;
+      }
+    }
+  }
+  .content {
+    .intro {
+      .text-intro {
+        width: 45vw !important;
+        .show-h1 {
+          font-size: 4.4rem !important;
+        }
+      }
+      .text-marquee {
+        margin-left: -3vw !important;
+      }
+    }
+    .what {
+      .what-content {
+        padding: 80px 50px;
+        h1 {
+          font-size: 4.4rem !important;
+        }
+        .padding-p {
+          padding: 80px;
+          p {
+            line-height: 40px;
+            letter-spacing: 1px;
+            font-size: 1.3rem;
+          }
+          h6 {
+            margin-top: 25px;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 80px 50px;
+        h1 {
+          font-size: 4.4rem !important;
+        }
+        .padding-p {
+          padding: 80px;
+          p {
+            line-height: 40px;
+            letter-spacing: 1px;
+            font-size: 1.3rem;
+          }
+          h6 {
+            margin-top: 25px;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 13vw !important;
+        &.regular {
+          .mask {
+            width: 13vw !important;
+            .plus {
+              .button-expand {
+                width: 1.7vw !important;
+                height: 1.7vw !important;
+              }
+            }
+            .banner {
+              width: 13vw !important;
+            }
+            &:hover {
+              .top {
+                width: 13vw !important;
+              }
+              .bottom {
+                width: 13vw !important;
+              }
+            }
+            label {
+              &.foot {
+                font-size: 0.82rem;
+              }
+            }
+          }
+          &.selected {
+            width: 30vw !important;
+          }
+          .narrative {
+            width: 30vw !important;
+            .left-content {
+              width: 13vw !important;
+              .name {
+                font-size: 1.2rem !important;
+              }
+              .reason {
+                font-size: 0.9rem !important;
+              }
+            }
+            .right-content {
+              width: 17vw !important;
+              .top {
+                padding-top: 2.5vh !important;
+                width: 17vw !important;
+                h6 {
+                  font-size: 1.1rem !important;
+                }
+                .list-projects {
+                  span {
+                    font-size: 0.8rem !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.title {
+          padding: 0 1vw;
+          h2 {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+    .location {
+      .location-content {
+        .flex-fix {
+          .square {
+            height: 13vw !important;
+            width: 13vw !important;
+            h2 {
+              font-size: 3rem !important;
+            }
+          }
+        }
+        .flex-content {
+          h1 {
+            font-size: 5rem !important;
+            line-height: 1 !important;
+          }
+        }
+        .address {
+          font-size: 1.4rem !important;
+        }
+      }
+    }
+    .contact-us {
+      h2 {
+        font-size: 2.5rem !important;
+      }
+      .flex-fix {
+        .square {
+          height: 13vw !important;
+          width: 13vw !important;
+        }
+      }
+      .jobs {
+        .top {
+          margin: 4vh 0 !important;
+          h3 {
+            font-size: 2.5rem !important;
+          }
+        }
+        .bottom {
+          margin: 4vh 0 !important;
+          p {
+            font-size: 1.2rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-device-width: 2560px) and (max-device-width: 3840px) {
+  .header {
+    .logo {
+      img {
+        width: 10vw !important;
+      }
+    }
+    .ham-menu {
+      width: 5vw !important;
+      .text-menu {
+        font-size: 1.5rem !important;
+        margin-left: -100px !important;
+      }
+      .icon-menu {
+        font-size: 3.2rem !important;
+      }
+    }
+  }
+  .content {
+    .intro {
+      .text-intro {
+        width: 50vw !important;
+        .show-h1 {
+          font-size: 6rem !important;
+        }
+      }
+      .text-marquee {
+        margin-left: -3vw !important;
+      }
+    }
+    .what {
+      .what-content {
+        padding: 120px 50px;
+        h1 {
+          font-size: 6rem !important;
+        }
+        .padding-p {
+          padding: 120px;
+          p {
+            line-height: 60px;
+            letter-spacing: 1px;
+            font-size: 1.8rem;
+          }
+          h6 {
+            margin-top: 25px;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    .why {
+      .why-content {
+        padding: 120px 50px;
+        h1 {
+          font-size: 6rem !important;
+        }
+        .padding-p {
+          padding: 120px;
+          p {
+            line-height: 60px;
+            letter-spacing: 1px;
+            font-size: 1.8rem;
+          }
+          h6 {
+            margin-top: 25px;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    .our-client {
+      .owl-panel-item {
+        width: 13vw !important;
+        &.regular {
+          .mask {
+            width: 13vw !important;
+            .plus {
+              .button-expand {
+                width: 1.9vw !important;
+                height: 1.9vw !important;
+              }
+            }
+            .banner {
+              width: 13vw !important;
+            }
+            &:hover {
+              .top {
+                width: 13vw !important;
+              }
+              .bottom {
+                width: 13vw !important;
+              }
+            }
+            label {
+              &.foot {
+                padding: 1rem 0;
+                font-size: 1.1rem;
+              }
+            }
+          }
+          &.selected {
+            width: 30vw !important;
+          }
+          .narrative {
+            width: 30vw !important;
+            .left-content {
+              width: 13vw !important;
+              .name {
+                font-size: 1.8rem !important;
+              }
+              .reason {
+                font-size: 1.3rem !important;
+              }
+            }
+            .right-content {
+              width: 17vw !important;
+              .top {
+                padding-top: 2.5vh !important;
+                width: 17vw !important;
+                h6 {
+                  font-size: 1.4rem !important;
+                }
+                .list-projects {
+                  span {
+                    font-size: 1.2rem !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.title {
+          padding: 0 1.2vw;
+          h2 {
+            font-size: 3.5rem;
+          }
+        }
+      }
+    }
+    .location {
+      .location-content {
+        .flex-fix {
+          .square {
+            height: 13vw !important;
+            width: 13vw !important;
+            h2 {
+              font-size: 4rem !important;
+            }
+          }
+        }
+        .flex-content {
+          h1 {
+            font-size: 7rem !important;
+            line-height: 1 !important;
+          }
+        }
+        .address {
+          font-size: 2rem !important;
+        }
+      }
+    }
+    .contact-us {
+      h2 {
+        font-size: 3.5rem !important;
+      }
+      .flex-fix {
+        .square {
+          height: 13vw !important;
+          width: 13vw !important;
+        }
+      }
+      .btn-close {
+        font-size: 3.5rem !important;
+      }
+      .jobs {
+        .top {
+          margin: 4vh 0 !important;
+          h3 {
+            font-size: 3.5rem !important;
+          }
+        }
+        .bottom {
+          margin: 4vh 0 !important;
+          p {
+            font-size: 1.6rem !important;
+          }
+          .btn-more {
+            span {
+              font-size: 1.6rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn-animate-vertical span .icon {
+    top: -25px !important;
+  }
+}
