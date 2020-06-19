@@ -18,21 +18,21 @@ function OurGallery() {
   };
 
   const photos = [
-    {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/1.jpeg",
-      width: 4,
-      height: 3,
-    },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/1.jpeg",
+    //   width: 4,
+    //   height: 3,
+    // },
     {
       src: process.env.PUBLIC_URL + "/images/our-client/meet-up/2.jpeg",
       width: 5,
       height: 3,
     },
-    {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/3.jpeg",
-      width: 4,
-      height: 3,
-    },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/3.jpeg",
+    //   width: 4,
+    //   height: 3,
+    // },
     {
       src: process.env.PUBLIC_URL + "/images/our-client/meet-up/6.jpeg",
       width: 4,
@@ -43,49 +43,49 @@ function OurGallery() {
       width: 4,
       height: 3,
     },
-    {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/5.jpeg",
-      width: 4,
-      height: 3,
-    },
-    {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/7.jpeg",
-      width: 2.5,
-      height: 3,
-    },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/5.jpeg",
+    //   width: 4,
+    //   height: 3,
+    // },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/7.jpeg",
+    //   width: 2.5,
+    //   height: 3,
+    // },
     {
       src: process.env.PUBLIC_URL + "/images/our-client/meet-up/8.jpeg",
       width: 1.8,
       height: 2,
     },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/9.jpeg",
+    //   width: 4,
+    //   height: 3,
+    // },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/10.jpeg",
+    //   width: 1,
+    //   height: 1,
+    // },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/11.jpeg",
+    //   width: 1,
+    //   height: 2,
+    // },
     {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/9.jpeg",
-      width: 4,
-      height: 3,
-    },
-    {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/10.jpeg",
-      width: 1,
+      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/12.jpeg",
+      width: 0.9,
       height: 1,
     },
     {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/11.jpeg",
-      width: 1,
-      height: 2,
-    },
-    {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/12.jpeg",
-      width: 2.5,
-      height: 5,
-    },
-    {
       src: process.env.PUBLIC_URL + "/images/our-client/meet-up/13.jpeg",
-      width: 3.8,
+      width: 5,
       height: 3,
     },
     {
       src: process.env.PUBLIC_URL + "/images/our-client/meet-up/14.jpeg",
-      width: 4,
+      width: 4.4,
       height: 2.6,
     },
     {
@@ -103,11 +103,11 @@ function OurGallery() {
       width: 0.8,
       height: 1,
     },
-    {
-      src: process.env.PUBLIC_URL + "/images/our-client/meet-up/18.jpeg",
-      width: 4.5,
-      height: 3,
-    },
+    // {
+    //   src: process.env.PUBLIC_URL + "/images/our-client/meet-up/18.jpeg",
+    //   width: 4.5,
+    //   height: 3,
+    // },
     {
       src: process.env.PUBLIC_URL + "/images/our-client/meet-up/19.jpeg",
       width: 4.5,
@@ -120,7 +120,7 @@ function OurGallery() {
     },
     {
       src: process.env.PUBLIC_URL + "/images/our-client/meet-up/21.jpeg",
-      width: 2,
+      width: 1.3,
       height: 1,
     },
     {
