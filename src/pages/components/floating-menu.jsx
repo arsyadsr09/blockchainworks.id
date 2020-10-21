@@ -4,7 +4,7 @@ import { FloatingButton, Item } from "react-floating-button";
 import downloadIcon from "../../assets/images/whatsapp.svg";
 
 export default function FloatingMenu() {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth] = useState(window.innerWidth);
 
   return (
     <>
