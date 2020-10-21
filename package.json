@@ -11,6 +11,7 @@
     "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.13.1",
+    "react-floating-button": "^1.1.1",
     "react-images": "^1.1.7",
     "react-media": "^1.10.0",
     "react-owl-carousel2": "^0.3.0",

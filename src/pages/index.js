@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./components/header.jsx";
+import FloatingButton from "./components/floating-button.jsx";
 // section page
 import Intro from "./components/home/intro.jsx";
 import What from "./components/home/what.jsx";
@@ -24,6 +25,7 @@ class Index extends React.Component {
           <Location />
           <ContactUs />
         </main>
+        <FloatingButton />
       </div>
     );
   }
