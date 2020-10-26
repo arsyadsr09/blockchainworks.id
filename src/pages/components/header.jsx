@@ -1,35 +1,35 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from "react";
-import $ from "jquery";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import React from "react"
+import $ from "jquery"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 class Header extends React.Component {
   componentDidMount() {
-    var menuSheet = false;
+    var menuSheet = false
     $("#ham-menu").click(function () {
-      menuSheet = !menuSheet;
+      menuSheet = !menuSheet
       if (menuSheet === true) {
-        $(".menu-sheet").css("opacity", 1).css("z-index", 9);
-        $("#ham-menu").removeClass("spinning").addClass("spinning-result");
-        $("#logo-header").css("opacity", 0).css("z-index", -1);
+        $(".menu-sheet").css("opacity", 1).css("z-index", 9)
+        $("#ham-menu").removeClass("spinning").addClass("spinning-result")
+        $("#logo-header").css("opacity", 0).css("z-index", -1)
       } else {
-        $(".menu-sheet").css("opacity", 0).css("z-index", -1);
-        $("#ham-menu").removeClass("spinning-result").addClass("spinning");
-        $("#logo-header").css("opacity", 1).css("z-index", 9);
+        $(".menu-sheet").css("opacity", 0).css("z-index", -1)
+        $("#ham-menu").removeClass("spinning-result").addClass("spinning")
+        $("#logo-header").css("opacity", 1).css("z-index", 9)
       }
-    });
+    })
     $(".banner-header").click(function () {
-      menuSheet = !menuSheet;
+      menuSheet = !menuSheet
       if (menuSheet === true) {
-        $(".menu-sheet").css("opacity", 1).css("z-index", 9);
-        $("#ham-menu").removeClass("spinning").addClass("spinning-result");
-        $("#logo-header").css("opacity", 0).css("z-index", -1);
+        $(".menu-sheet").css("opacity", 1).css("z-index", 9)
+        $("#ham-menu").removeClass("spinning").addClass("spinning-result")
+        $("#logo-header").css("opacity", 0).css("z-index", -1)
       } else {
-        $(".menu-sheet").css("opacity", 0).css("z-index", -1);
-        $("#ham-menu").removeClass("spinning-result").addClass("spinning");
-        $("#logo-header").css("opacity", 1).css("z-index", 9);
+        $(".menu-sheet").css("opacity", 0).css("z-index", -1)
+        $("#ham-menu").removeClass("spinning-result").addClass("spinning")
+        $("#logo-header").css("opacity", 1).css("z-index", 9)
       }
-    });
+    })
   }
   render() {
     return (
@@ -84,8 +84,8 @@ class Header extends React.Component {
           </div>
         </div>
       </header>
-    );
+    )
   }
 }
 
-export default Header;
+export default Header
